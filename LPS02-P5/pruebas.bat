@@ -1,0 +1,27 @@
+java -jar brujos.jar -a pruebas\BrujoABasico.brujo -b pruebas\BrujoBBasico.brujo -d -e pruebas\004.entrada -s pruebas\004.salida
+java -jar brujos.jar -a pruebas\BrujoABasico.brujo -b pruebas\BrujoBBasico.brujo -d -e pruebas\005.entrada -s pruebas\005.salida
+java -jar brujos.jar -a pruebas\BrujoABasico.brujo -b pruebas\BrujoBBasico.brujo -d -e pruebas\006.entrada -s pruebas\006.salida
+java -jar brujos.jar -a pruebas\BrujoABasico.brujo -b pruebas\BrujoBBasico.brujo -d -e pruebas\007.entrada -s pruebas\007.salida
+java -jar brujos.jar -a pruebas\BrujoABasico.brujo -b pruebas\BrujoBBasico.brujo -d -e pruebas\008.entrada -s pruebas\008.salida
+java -jar brujos.jar -a pruebas\BrujoAAdmin1.brujo -b pruebas\BrujoBAdmin1.brujo -d -e pruebas\009.entrada -s pruebas\009.salida
+java -jar brujos.jar -a pruebas\BrujoAAdmin2.brujo -b pruebas\BrujoBAdmin2.brujo -d -e pruebas\010.entrada -s pruebas\010.salida
+java -jar brujos.jar -a pruebas\BrujoAAdmin3.brujo -b pruebas\BrujoBAdmin3.brujo -d -e pruebas\011.entrada -s pruebas\011.salida
+java -jar brujos.jar -a pruebas\BrujoAAdmin3.brujo -b pruebas\BrujoBAdmin3.brujo -d -e pruebas\012.entrada -s pruebas\012.salida
+java -jar brujos.jar -a pruebas\BrujoAAdminExp.brujo -b pruebas\BrujoBAdminExp.brujo -d -e pruebas\013.entrada -s pruebas\013.salida
+java -jar brujos.jar -a pruebas\BrujoAAdminExp.brujo -b pruebas\BrujoBAdminExp.brujo -d -e pruebas\014.entrada -s pruebas\014.salida
+java -jar brujos.jar -a pruebas\BrujoAAdminExp.brujo -b pruebas\BrujoBAdminExp.brujo -d -e pruebas\015.entrada -s pruebas\015.salida
+java -jar brujos.jar -a pruebas\BrujoAAdminExp.brujo -b pruebas\BrujoBAdminExp.brujo -d -e pruebas\016.entrada -s pruebas\016.salida
+java -jar brujos.jar -a pruebas\BrujoAAdminExp.brujo -b pruebas\BrujoBAdminExp.brujo -d -e pruebas\017.entrada -s pruebas\017.salida
+java -jar brujos.jar -a pruebas\BrujoAAdminExp.brujo -b pruebas\BrujoBAdminExp.brujo -d -e pruebas\018.entrada -s pruebas\018.salida
+java -jar brujos.jar -a pruebas\BrujoAAdminExp.brujo -b pruebas\BrujoBAdminExp.brujo -d -e pruebas\019.entrada -s pruebas\019.salida
+java -jar brujos.jar -a pruebas\BrujoAAdminExp.brujo -b pruebas\BrujoBAdminExp.brujo -d -e pruebas\020.entrada -s pruebas\020.salida
+java -jar brujos.jar -a pruebas\BrujoAAdminExp.brujo -b pruebas\BrujoBAdminExp.brujo -d -e pruebas\021.entrada -s pruebas\021.salida
+java -jar brujos.jar -a pruebas\BrujoAAdminExp.brujo -b pruebas\BrujoBAdminExp.brujo -d -e pruebas\022.entrada -s pruebas\022.salida
+java -jar brujos.jar -a pruebas\BrujoAAdminExp.brujo -b pruebas\BrujoBAdminExp.brujo -d -e pruebas\023.entrada -s pruebas\023.salida
+java -jar brujos.jar -a pruebas\BrujoAAdminExp.brujo -b pruebas\BrujoBAdminExp.brujo -d -e pruebas\024.entrada -s pruebas\024.salida
+java -jar brujos.jar -a pruebas\BrujoAAdminExp.brujo -b pruebas\BrujoBAdminExp.brujo -d -e pruebas\025.entrada -s pruebas\025.salida
+java -jar brujos.jar -a pruebas\BrujoAAdminExpMar.brujo -b pruebas\BrujoAAdminExpMar.brujo -d -e pruebas\026.entrada -s pruebas\026.salida
+java -jar brujos.jar -a pruebas\BrujoAAdminCombat.brujo -b pruebas\BrujoBAdminCombat.brujo -d -e pruebas\027.entrada -s pruebas\027.salida
+java -jar brujos.jar -a pruebas\BrujoAAdminCombat2.brujo -b pruebas\BrujoBAdminCombat2.brujo -d -e pruebas\028.entrada -s pruebas\028.salida
+java -jar brujos.jar -a pruebas\BrujoAAdminAberracion.brujo -b pruebas\BrujoBAdminAberracion.brujo -d -e pruebas\029.entrada -s pruebas\029.salida
+

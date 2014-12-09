@@ -1,0 +1,39 @@
+Parametro 'min' no introducido se leera desde el fichero de propiedades
+Parametro 'max' no introducido se leera desde el fichero de propiedades
+Parametro 'mano' no introducido se leera desde el fichero de propiedades
+Parametro 'vidas' no introducido se leera desde el fichero de propiedades
+No has introducido el valor vida en el fichero de propiedades, se cargara por defecto
+El mazo del brujo A se cargo sin fallos
+El mazo del brujo B se cargo sin fallos
+Bienvenido a Brujas & Trifulcas.
+Elige una de las siguientes opciones:
+'1.-Jugar partida 1vs1.
+'2.-Ayuda
+'0.-Salir
+Turno del Brujo Brujo A
+
+
+
+Pulse Enter para empezar
+---------------Fase pre-trifulca---------------------------------
+
+Introduzca la accion: 
+-------------Fase trifulca---------------------------------
+¡INTERVENCIONES! del brujo Brujo A(Recuerde que ahora puede jugar intervenciones 'codigo' 'propietario' 'objetivo' (depende de la intervencion))
+
+Introduzca la accion: 
+¡INTERVENCIONES! del brujo Brujo B(Recuerde que ahora puede jugar intervenciones 'codigo' 'propietario' 'objetivo' (depende de la intervencion))
+
+Introduzca la accion: 
+¡ATAQUE!Es momento de que asigne atacantes si lo considera oportuno
+
+Introduzca la accion: 
+Fin del turno del brujo Brujo A
+Turno del Brujo Brujo B
+
+
+
+Pulse Enter para empezar
+---------------Fase pre-trifulca---------------------------------
+
+Introduzca la accion: 

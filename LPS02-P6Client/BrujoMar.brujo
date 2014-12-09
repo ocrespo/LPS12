@@ -1,0 +1,32 @@
+BRUJOS&TRIFULCAS 2
+
+# Este es mi mazo de la muerte con el que vejar a los novatos
+@nombre Brujo A
+@frase Muahahah 
+peninsula 3
+fosa 13
+isla 
+
+lenguado 4
+ballena 3
+elemental 2
+trucha 3
+globo 3
+helado 3
+
+salitre 3
+resaca 3
+tsunami 3
+marejadilla 3
+
+muro
+@admin
+espectro
+@mano tsunami
+@entorno prado
+@entorno prado
+@entorno prado
+@entorno prado
+# Si no se indica cantidad, se asume un 1
+#
+#impugnacion 3

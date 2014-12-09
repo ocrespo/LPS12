@@ -1,0 +1,717 @@
+<foundInDeck Warlock
+<addCardToDeck Warlock
+<addCardToDeck Warlock
+<addCardToDeck Warlock
+<foundInDeck Warlock
+<addCardToDeck Warlock
+<foundInDeck Warlock
+<addCardToDeck Warlock
+<foundInDeck Warlock
+<addCardToDeck Warlock
+<foundInDeck Warlock
+<addCardToDeck Warlock
+<addCardToDeck Warlock
+<addCardToDeck Warlock
+<foundInDeck Warlock
+<addCardToDeck Warlock
+<foundInDeck Warlock
+<addInGame Warlock
+<addEnviroment Warlock
+<addEnviroment Warlock
+<addEnviroment Warlock
+<addEnviroment Warlock
+<addEnviroment Warlock
+<addEnviroment Warlock
+<addInHand Warlock
+<addInHand Warlock
+<addInHand Warlock
+<addInHand Warlock
+<addMana Warlock
+add Cost
+<foundInDeck Warlock
+<addCardToDeck Warlock
+<addCardToDeck Warlock
+<addCardToDeck Warlock
+<foundInDeck Warlock
+<addCardToDeck Warlock
+<foundInDeck Warlock
+<addCardToDeck Warlock
+<foundInDeck Warlock
+<addCardToDeck Warlock
+<foundInDeck Warlock
+<addCardToDeck Warlock
+<addCardToDeck Warlock
+<addCardToDeck Warlock
+<foundInDeck Warlock
+<addCardToDeck Warlock
+<foundInDeck Warlock
+<addInGame Warlock
+<foundInDeck Warlock
+<addInGame Warlock
+<addEnviroment Warlock
+<addEnviroment Warlock
+<addEnviroment Warlock
+<addEnviroment Warlock
+<addEnviroment Warlock
+<addEnviroment Warlock
+<addInHand Warlock
+<addInHand Warlock
+<addInHand Warlock
+<addInHand Warlock
+<addMana Warlock
+add Cost
+<ini play
+
+
+USUARIO:
+
+1
+<drawHand Warlock
+<draw Warlock
+<draw Warlock
+<draw Warlock
+<draw Warlock
+<drawHand Warlock
+<draw Warlock
+<draw Warlock
+<draw Warlock
+<draw Warlock
+<iniPhase
+<iniCards
+<ini entity
+<unDone entity
+unDone AttackStatsModifier
+unDone StatsModifiersCardInGame
+unDone entity/>
+ini entity/>
+<unDone Warlock
+<unDone entity
+unDone AttackStatsModifier
+unDone entity/>
+<unDone entity
+unDone Copy
+unDone entity/>
+doPermanent Warlock
+doPermanent Warlock
+solveNext Judge
+
+
+USUARIO:
+
+
+iniPhase/>
+<draw Warlock
+<preCombat
+
+
+USUARIO:
+
+--sig
+precombat/>
+<Create combat estructure
+Create combat estructure/>
+<combat
+<interventionPhase
+<interventionLoop
+
+
+USUARIO:
+
+--sig
+interventionLoop/>
+<interventionLoop
+
+
+USUARIO:
+
+furia mio aberracion
+<checkIntervention
+<playCard
+playCard Warlock
+insert Intervention
+playCard/>
+<parserCombat
+<getGameCard Warlock
+<getNumCardEquals Warlock
+parserCombat/>
+<getHandCard Warlock
+<allOk MultiplyStatsModifiers
+checkIntervention/>
+<playIntervention
+discard string Warlock
+
+
+USUARIO:
+
+--sig
+
+
+USUARIO:
+
+--sig
+playIntervention/>
+solveIntervention Judge
+doActive Intervention
+<done MultiplyStatsModifiers
+
+
+USUARIO:
+
+
+interventionLoop/>
+interventionPhase/>
+doAllPassiveAction Warlock
+<getInGameCards Warlock
+<doPassive entity
+done StatsModifiersCardInGame
+<getInGameCards Warlock
+<doPassive entity/>
+doAllPassiveAction Warlock
+<getInGameCards Warlock
+<doPassive entity
+<doPassive entity
+<attackPhase
+
+
+USUARIO:
+
+
+
+
+USUARIO:
+
+--juego
+
+
+USUARIO:
+
+--atacar alabardero
+<parserCombat
+<getGameCard Warlock
+<getNumCardEquals Warlock
+parserCombat/>
+<doAttack entity
+<done AttackStatsModifier
+<doAttack entity/>
+
+
+USUARIO:
+
+--sig
+attackPhase/>
+<defensePhase
+
+
+USUARIO:
+
+--defender aberracion
+<parserCombat
+<getGameCard Warlock
+<getNumCardEquals Warlock
+parserCombat/>
+
+
+USUARIO:
+
+alabardero
+<parseDefense
+parseDefense/>
+<doPassive entity
+done StatsModifiersCardInGame
+<doPassive entity/>
+<doAttack entity
+<done AttackStatsModifier
+<doAttack entity/>
+<doDefense entity
+<doDefense entity/>
+
+
+USUARIO:
+
+--usar aberracion alabardero
+<useAction
+<parserCombat
+<getGameCard Warlock
+<getNumCardEquals Warlock
+parserCombat/>
+useActiveAction Warlock
+<getGameCard Warlock
+<allOK entity
+allOk Copy
+<doActive entity
+<done Copy
+addUndo Judge
+<doPassive entity
+done StatsModifiersCardInGame
+<getInGameCards Warlock
+<doPassive entity/>
+<doDefense entity
+<doDefense entity/>
+useAction/>
+
+
+USUARIO:
+
+--vercombate
+
+
+USUARIO:
+
+--sig
+defensePhase/>
+<interventionPhase
+<interventionLoop
+
+
+USUARIO:
+
+rayos enemigo aberracion
+<checkIntervention
+<playCard
+playCard Warlock
+insert Intervention
+playCard/>
+<parserCombat
+<getGameCard Warlock
+<getNumCardEquals Warlock
+parserCombat/>
+<getHandCard Warlock
+<allOk Kill
+checkIntervention/>
+<playIntervention
+discard string Warlock
+
+
+USUARIO:
+
+--sig
+
+
+USUARIO:
+
+colleja enemigo aberracion
+<checkIntervention
+<playCard
+playCard Warlock
+insert Intervention
+playCard/>
+<parserCombat
+<getGameCard Warlock
+<getNumCardEquals Warlock
+parserCombat/>
+<getHandCard Warlock
+<allOk DamageAttackStat
+checkIntervention/>
+<addGraveyard Warlock
+discard string Warlock
+
+
+USUARIO:
+
+emulsion
+<checkIntervention
+<playCard
+playCard Warlock
+insert Intervention
+playCard/>
+<getHandCard Warlock
+<allOk RotateAllEntities
+checkIntervention/>
+<addGraveyard Warlock
+discard string Warlock
+
+
+USUARIO:
+
+emulsion
+<checkIntervention
+<playCard
+playCard Warlock
+insert Intervention
+playCard/>
+<getHandCard Warlock
+<allOk RotateAllEntities
+checkIntervention/>
+<addGraveyard Warlock
+discard string Warlock
+
+
+USUARIO:
+
+emulsion
+<checkIntervention
+<playCard
+playCard Warlock
+insert Intervention
+playCard/>
+<getHandCard Warlock
+<allOk RotateAllEntities
+checkIntervention/>
+<addGraveyard Warlock
+discard string Warlock
+
+
+USUARIO:
+
+--sig
+
+
+USUARIO:
+
+--sig
+playIntervention/>
+solveIntervention Judge
+doActive Intervention
+<done RotateAllEntities
+<rotateAll RotateAllEntities
+<getEntitiesIntoHand Warlock
+<insert entity
+insert Enviroment
+insert Intervention
+<getEntitiesIntoDeck Warlock
+<insert entity
+insert Enviroment
+insert Intervention
+insert Intervention
+insert Intervention
+<insert entity
+<getEntitiesIntoGraveyard Warlock
+insert Intervention
+insert Intervention
+insert Intervention
+insert Intervention
+insert Intervention
+<getInGameCardsByCopy Warlock
+<removeInGame Warlock
+<removeInGame Warlock
+<addInHand Warlock
+<removeDeck Warlock
+<addInHand Warlock
+<removeDeck Warlock
+<addAllCardsInGame Warlock
+<removeAllCardsInHand Warlock
+<rotateAll RotateAllEntities
+<getEntitiesIntoHand Warlock
+<insert entity
+<insert entity
+insert Enviroment
+insert Intervention
+<getEntitiesIntoDeck Warlock
+insert Enviroment
+insert Intervention
+insert Intervention
+insert Intervention
+<insert entity
+<getEntitiesIntoGraveyard Warlock
+insert Intervention
+insert Intervention
+insert Intervention
+insert Intervention
+insert Intervention
+<getInGameCardsByCopy Warlock
+<removeInGame Warlock
+<addInHand Warlock
+<removeDeck Warlock
+<addAllCardsInGame Warlock
+<removeAllCardsInHand Warlock
+<addAllCardsInGame Warlock
+<removeAllCardsInHand Warlock
+
+
+USUARIO:
+
+
+doActive Intervention
+<done RotateAllEntities
+<rotateAll RotateAllEntities
+<getEntitiesIntoHand Warlock
+<insert entity
+insert Enviroment
+insert Intervention
+<getEntitiesIntoDeck Warlock
+insert Enviroment
+insert Intervention
+insert Intervention
+insert Intervention
+<getEntitiesIntoGraveyard Warlock
+insert Intervention
+insert Intervention
+insert Intervention
+insert Intervention
+insert Intervention
+<insert entity
+<getInGameCardsByCopy Warlock
+<removeInGame Warlock
+<removeInGame Warlock
+<addInDeck Warlock
+<removeGraveyard Warlock
+<addAllCardsInGame Warlock
+<removeAllCardsInHand Warlock
+<rotateAll RotateAllEntities
+<getEntitiesIntoHand Warlock
+<insert entity
+<insert entity
+insert Enviroment
+insert Intervention
+<getEntitiesIntoDeck Warlock
+insert Enviroment
+insert Intervention
+insert Intervention
+insert Intervention
+<getEntitiesIntoGraveyard Warlock
+insert Intervention
+insert Intervention
+insert Intervention
+insert Intervention
+insert Intervention
+<insert entity
+<insert entity
+<getInGameCardsByCopy Warlock
+<removeInGame Warlock
+<addInDeck Warlock
+<removeGraveyard Warlock
+<addInDeck Warlock
+<removeGraveyard Warlock
+<addAllCardsInGame Warlock
+<removeAllCardsInHand Warlock
+<addAllCardsInGame Warlock
+<removeAllCardsInHand Warlock
+
+
+USUARIO:
+
+
+doActive Intervention
+<done RotateAllEntities
+<rotateAll RotateAllEntities
+<getEntitiesIntoHand Warlock
+insert Enviroment
+insert Intervention
+<getEntitiesIntoDeck Warlock
+insert Enviroment
+insert Intervention
+insert Intervention
+insert Intervention
+<insert entity
+<insert entity
+<getEntitiesIntoGraveyard Warlock
+insert Intervention
+insert Intervention
+insert Intervention
+insert Intervention
+insert Intervention
+<insert entity
+<getInGameCardsByCopy Warlock
+<removeInGame Warlock
+<removeInGame Warlock
+<addInDeck Warlock
+<removeGraveyard Warlock
+<addInHand Warlock
+<removeDeck Warlock
+<addInHand Warlock
+<removeDeck Warlock
+<rotateAll RotateAllEntities
+<getEntitiesIntoHand Warlock
+insert Enviroment
+insert Intervention
+<getEntitiesIntoDeck Warlock
+insert Enviroment
+insert Intervention
+insert Intervention
+insert Intervention
+<insert entity
+<getEntitiesIntoGraveyard Warlock
+insert Intervention
+insert Intervention
+insert Intervention
+insert Intervention
+insert Intervention
+<insert entity
+<insert entity
+<getInGameCardsByCopy Warlock
+<removeInGame Warlock
+<addInDeck Warlock
+<removeGraveyard Warlock
+<addInDeck Warlock
+<removeGraveyard Warlock
+<addInHand Warlock
+<removeDeck Warlock
+
+
+USUARIO:
+
+
+doActive Intervention
+done DamageAttackStat
+
+
+USUARIO:
+
+
+doActive Intervention
+<done Kill
+done StatsModifiersCardInGame
+<removeInGameCard Warlock
+
+
+USUARIO:
+
+
+interventionLoop/>
+<interventionLoop
+
+
+USUARIO:
+
+
+<checkIntervention
+
+
+USUARIO:
+
+
+<checkIntervention
+
+
+USUARIO:
+
+
+<checkIntervention
+
+
+USUARIO:
+
+
+<checkIntervention
+
+
+USUARIO:
+
+
+<checkIntervention
+
+
+USUARIO:
+
+
+<checkIntervention
+
+
+USUARIO:
+
+
+<checkIntervention
+
+
+USUARIO:
+
+--vercombate
+
+
+USUARIO:
+
+
+<checkIntervention
+
+
+USUARIO:
+
+
+<checkIntervention
+
+
+USUARIO:
+
+--mano
+
+
+USUARIO:
+
+
+<checkIntervention
+
+
+USUARIO:
+
+
+<checkIntervention
+
+
+USUARIO:
+
+
+<checkIntervention
+
+
+USUARIO:
+
+--juego
+
+
+USUARIO:
+
+--sig
+interventionLoop/>
+interventionPhase/>
+solveCombat Judge
+unDoneAct Judge
+unDone Copy
+undoIntervention Judge
+unDone MultiplyStatsModifiers
+<theEnd phase
+manaFire Warlock
+winner Judge
+winner Judge
+winner Judge
+iniCost Cost
+
+
+USUARIO:
+
+
+theEnd phase/>
+<iniPhase
+<iniCards
+<unDone Warlock
+doPermanent Warlock
+doPermanent Warlock
+solveNext Judge
+
+
+USUARIO:
+
+
+iniPhase/>
+<draw Warlock
+<preCombat
+
+
+USUARIO:
+
+--sig
+precombat/>
+<Create combat estructure
+Create combat estructure/>
+<combat
+<interventionPhase
+<interventionLoop
+
+
+USUARIO:
+
+
+<checkIntervention
+
+
+USUARIO:
+
+
+<checkIntervention
+
+
+USUARIO:
+
+--salir
+interventionLoop/>
+interventionPhase/>
+combat/>

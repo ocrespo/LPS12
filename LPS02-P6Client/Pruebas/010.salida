@@ -1,0 +1,646 @@
+Parametro 'min' no introducido se leera desde el fichero de propiedades
+Parametro 'max' no introducido se leera desde el fichero de propiedades
+Parametro 'mano' no introducido se leera desde el fichero de propiedades
+Parametro 'vidas' no introducido se leera desde el fichero de propiedades
+No has introducido el valor vida en el fichero de propiedades, se cargara por defecto
+El mazo del brujo A se cargo sin fallos
+El mazo del brujo B se cargo sin fallos
+Bienvenido a Brujas & Trifulcas.
+Elige una de las siguientes opciones:
+'1.-Jugar partida 1vs1.
+'2.-Ayuda
+'0.-Salir
+Estas en modo ADMIN
+Turno del Brujo  Brujo A
+
+
+
+Pulse Enter para empezar
+---------------Fase pre-trifulca---------------------------------
+
+Introduzca la accion: 
+-------------Fase trifulca---------------------------------
+¡INTERVENCIONES! del brujo  Brujo A(Recuerde que ahora puede jugar intervenciones 'codigo' 'propietario' 'objetivo' (depende de la intervencion))
+
+Introduzca la accion: 
+Intervencion 
+
+Coste: 1T 
+Codigo: furia
+Nombre: Furia Parda
+Elemento: tierra
+Tipo: Intervencion
+Descripcion: Multiplica por 2 el ataque de un ser durante una trifulca
+Coste: 1T 
+Le toca el turno al brujo Brujo B
+
+Introduzca la accion: 
+Intervencion 
+
+Coste: 1E + 1G 
+Codigo: psicofonia
+Nombre: Psicofonia Zen
+Elemento: espiritu
+Tipo: Intervencion
+Descripcion: El brujo puede ver todas las cartas de la mano de su oponente
+Coste: 1E + 1G 
+ jugada. 
+Le toca el turno al otro brujo
+
+Introduzca la accion: 
+Has decidido no jugar intervencion, se pasa el turno al otro brujo Brujo B
+
+Introduzca la accion: 
+Has decidido no jugar intervencion, se pasa el turno al otro brujo  Brujo A
+
+Los dos brujos habeis decidido dejar de jugar intervenciones, se resolvera la disputa 
+PREPARADOS
+Se realiza:
+
+Coste: 1E + 1G 
+Codigo: psicofonia
+Nombre: Psicofonia Zen
+Elemento: espiritu
+Tipo: Intervencion
+Descripcion: El brujo puede ver todas las cartas de la mano de su oponente
+Coste: 1E + 1G 
+La mano de su enemido es
+
+-----------------------------------------------------
+1x---
+
+Coste: 1T + 1G 
+Codigo: raices
+Nombre: Raices de Asfixia
+Elemento: tierra
+Tipo: Intervencion
+Descripcion: Descarga por completo a un ser
+Coste: 1T + 1G 
+-----------------------------------------------------
+1x---
+
+Coste: 2M + 1G 
+Codigo: resaca
+Nombre: Resaca Vespertina
+Elemento: mar
+Tipo: Intervencion
+Descripcion: Hace que un ser cambie de bando, yendo bajo el control del otro brujo
+Coste: 2M + 1G 
+-----------------------------------------------------
+3x---
+
+Sin coste 
+Descargado: No
+Codigo: prado
+Nombre: Prado Infantil
+Elemento: tierra
+Tipo: Entorno
+Descripcion: [uso]Permite recolectar 1 cloro de Tierra y 1 cloro generico
+Sin coste 
+Descargado: No
+-----------------------------------------------------
+1x---
+
+Coste: 1A + 1G 
+Codigo: fluir
+Nombre: Fluir Gaseoso
+Elemento: aire
+Tipo: Intervencion
+Descripcion: Permite que un ser atacante no puede ser defendido en esta trifulca
+Coste: 1A + 1G 
+-----------------------------------------------------
+2x---
+
+Coste: 2G 
+A: 1  D: 2    Vida: 2  Descargado: No
+Codigo: cucaracha
+Nombre: Cucaracha Indomita
+Elemento: tierra
+Tipo: Ser
+Descripcion: [pasiva]No pueden jugarse intervenciones directamente sobre ella
+Coste: 2G 
+A: 1  D: 2    Vida: 2  Descargado: No
+
+pulse una tecla para continuar
+
+Es super efectivo
+
+Se realiza:
+
+Coste: 1T 
+Codigo: furia
+Nombre: Furia Parda
+Elemento: tierra
+Tipo: Intervencion
+Descripcion: Multiplica por 2 el ataque de un ser durante una trifulca
+Coste: 1T 
+
+No es efectivo
+
+¡INTERVENCIONES! del brujo Brujo B(Recuerde que ahora puede jugar intervenciones 'codigo' 'propietario' 'objetivo' (depende de la intervencion))
+
+Introduzca la accion: 
+¡ATAQUE!Es momento de que asigne atacantes si lo considera oportuno
+
+Introduzca la accion: 
+Al ataque mis valientes, ¡LOK'TAR OGAR!
+
+Introduzca la accion: 
+Al ataque mis valientes, ¡LOK'TAR OGAR!
+
+Introduzca la accion: 
+Al ataque mis valientes, ¡LOK'TAR OGAR!
+
+Introduzca la accion: 
+Al ataque mis valientes, ¡LOK'TAR OGAR!
+
+Introduzca la accion: 
+¡DEFIENDASE! asigne defensores  como guste
+
+Introduzca la accion: 
+Introduzca la carta que quiere defender ,y en caso de haber mas de una, el numero que sera su posicion partiendo del 1 segun se muestra por pantalla
+
+Introduzca la accion: 
+A la defensa, ¡Gloria o muerte!
+
+Introduzca la accion: 
+Introduzca la carta que quiere defender ,y en caso de haber mas de una, el numero que sera su posicion partiendo del 1 segun se muestra por pantalla
+
+Introduzca la accion: 
+A la defensa, ¡Gloria o muerte!
+
+Introduzca la accion: 
+Introduzca la carta que quiere defender ,y en caso de haber mas de una, el numero que sera su posicion partiendo del 1 segun se muestra por pantalla
+
+Introduzca la accion: 
+A la defensa, ¡Gloria o muerte!
+
+Introduzca la accion: 
+Introduzca la carta que quiere defender ,y en caso de haber mas de una, el numero que sera su posicion partiendo del 1 segun se muestra por pantalla
+
+Introduzca la accion: 
+A la defensa, ¡Gloria o muerte!
+
+Introduzca la accion: 
+
+Introduzca la accion: 
+
+--Combate----------------
+-------ATACA------------
+
+Coste: 1A + 2G 
+A: 2  D: 3    Vida: 3  Descargado: Si
+Codigo: albatros
+Nombre: Albatros Legendario
+Elemento: aire
+Tipo: Ser
+Descripcion: [pasiva]Cuando ataca no puede ser defendido con ningun ser de Aire
+Coste: 1A + 2G 
+A: 2  D: 3    Vida: 3  Descargado: Si
+--------VS------------
+------DEFIENDE------------
+
+--------------------------
+
+Coste: 1E + 2G 
+A: 2  D: 3    Vida: 3  Descargado: No
+Codigo: aberracion
+Nombre: Aberracion Poltergeist
+Elemento: espiritu
+Tipo: Ser
+Descripcion: [pasiva]Cuando ataca no puede ser defendido con ningun ser de Aire
+[uso]Si el brujo lo desea, en una trifulca la Aberración puede copiar los valores de ataque, defensa y comportamiento del ser atacante.
+una vez usado, no se puede usar hasta el turno siguiente.(aparecera el texto a modo informativo pero el uso no estara activo)
+[ayuda]--usar 'aberracion' 'opcional solo si hay mas de una, aclarar cual desea usar' 'objetivo'.
+Coste: 1E + 2G 
+A: 2  D: 3    Vida: 3  Descargado: No
+--Combate----------------
+-------ATACA------------
+
+Coste: 2T + 1G 
+A: 4  D: 3    Vida: 3  Descargado: Si
+Codigo: caballero
+Nombre: Caballero Tremebundo
+Elemento: tierra
+Tipo: Ser
+Descripcion: [pasiva]Cuando ataca gana +N/+0 siendo N el numero de seres de espiritu que le defienden
+Coste: 2T + 1G 
+A: 4  D: 3    Vida: 3  Descargado: Si
+--------VS------------
+------DEFIENDE------------
+
+--------------------------
+
+Coste: 1E 
+A: 2  D: 1    Vida: 1  Descargado: No
+Codigo: espectro
+Nombre: Espectro Vampirico
+Elemento: espiritu
+Tipo: Ser
+Descripcion: [pasiva]Gana un +1/+0 al enfrentarse a seres de Tierra, ademas si es atacante +N/+0 siendo N el numero de seres de tierra que le defienden
+Coste: 1E 
+A: 2  D: 1    Vida: 1  Descargado: No
+--Combate----------------
+-------ATACA------------
+
+Coste: 3M + 1G 
+A: 3  D: 3    Vida: 3  Descargado: Si
+Codigo: elemental
+Nombre: Elemental de Lluvia
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasiva]Tras una trifulca, el brujo atacante debe devolver a su mano al ser que haya atacado al Elemental
+Coste: 3M + 1G 
+A: 3  D: 3    Vida: 3  Descargado: Si
+--------VS------------
+------DEFIENDE------------
+
+--------------------------
+
+Coste: 2M + 2G 
+A: 1  D: 5    Vida: 5  Descargado: No
+Codigo: ballena
+Nombre: Ballena Monje
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasiva]Pierde un -0/-2 al defenderse de seres de clase Aire
+Coste: 2M + 2G 
+A: 1  D: 5    Vida: 5  Descargado: No
+--Combate----------------
+-------ATACA------------
+
+Coste: 1E 
+A: 1  D: 1    Vida: 1  Descargado: Si
+Codigo: espectro
+Nombre: Espectro Vampirico
+Elemento: espiritu
+Tipo: Ser
+Descripcion: [pasiva]Gana un +1/+0 al enfrentarse a seres de Tierra, ademas si es atacante +N/+0 siendo N el numero de seres de tierra que le defienden
+Coste: 1E 
+A: 1  D: 1    Vida: 1  Descargado: Si
+--------VS------------
+------DEFIENDE------------
+
+--------------------------
+
+Coste: 3M + 1G 
+A: 3  D: 3    Vida: 3  Descargado: No
+Codigo: elemental
+Nombre: Elemental de Lluvia
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasiva]Tras una trifulca, el brujo atacante debe devolver a su mano al ser que haya atacado al Elemental
+Coste: 3M + 1G 
+A: 3  D: 3    Vida: 3  Descargado: No
+
+Introduzca la accion: 
+¡INTERVENCIONES! del brujo  Brujo A(Recuerde que ahora puede jugar intervenciones 'codigo' 'propietario' 'objetivo' (depende de la intervencion))
+
+Introduzca la accion: 
+Intervencion 
+
+Coste: 1A + 1G 
+Codigo: fluir
+Nombre: Fluir Gaseoso
+Elemento: aire
+Tipo: Intervencion
+Descripcion: Permite que un ser atacante no puede ser defendido en esta trifulca
+Coste: 1A + 1G 
+Le toca el turno al brujo Brujo B
+
+Introduzca la accion: 
+Has decidido no jugar intervencion, se pasa el turno al otro brujo  Brujo A
+
+Introduzca la accion: 
+Intervencion 
+
+Coste: 2M + 1G 
+Codigo: resaca
+Nombre: Resaca Vespertina
+Elemento: mar
+Tipo: Intervencion
+Descripcion: Hace que un ser cambie de bando, yendo bajo el control del otro brujo
+Coste: 2M + 1G 
+ jugada. 
+Le toca el turno al otro brujo
+
+Introduzca la accion: 
+Has decidido no jugar intervencion, se pasa el turno al otro brujo  Brujo A
+
+Introduzca la accion: 
+Intervencion 
+
+Coste: 1T + 1G 
+Codigo: raices
+Nombre: Raices de Asfixia
+Elemento: tierra
+Tipo: Intervencion
+Descripcion: Descarga por completo a un ser
+Coste: 1T + 1G 
+ jugada. 
+Le toca el turno al otro brujo
+
+Introduzca la accion: 
+Has decidido no jugar intervencion, se pasa el turno al otro brujo  Brujo A
+
+Introduzca la accion: 
+Has decidido no jugar intervencion, se pasa el turno al otro brujo Brujo B
+
+Los dos brujos habeis decidido dejar de jugar intervenciones, se resolvera la disputa 
+PREPARADOS
+Se realiza:
+
+Coste: 1T + 1G 
+Codigo: raices
+Nombre: Raices de Asfixia
+Elemento: tierra
+Tipo: Intervencion
+Descripcion: Descarga por completo a un ser
+Coste: 1T + 1G 
+
+Es super efectivo
+
+Se realiza:
+
+Coste: 2M + 1G 
+Codigo: resaca
+Nombre: Resaca Vespertina
+Elemento: mar
+Tipo: Intervencion
+Descripcion: Hace que un ser cambie de bando, yendo bajo el control del otro brujo
+Coste: 2M + 1G 
+
+Es super efectivo
+
+Se realiza:
+
+Coste: 1A + 1G 
+Codigo: fluir
+Nombre: Fluir Gaseoso
+Elemento: aire
+Tipo: Intervencion
+Descripcion: Permite que un ser atacante no puede ser defendido en esta trifulca
+Coste: 1A + 1G 
+
+Es super efectivo
+
+¡INTERVENCIONES! del brujo Brujo B(Recuerde que ahora puede jugar intervenciones 'codigo' 'propietario' 'objetivo' (depende de la intervencion))
+
+Introduzca la accion: 
+¡¡¡Se va a resolver el combate¡¡¡¡
+-------ATACA------------
+
+Coste: 1A + 2G 
+A: 2  D: 3    Vida: 3  Descargado: Si
+Codigo: albatros
+Nombre: Albatros Legendario
+Elemento: aire
+Tipo: Ser
+Descripcion: [pasiva]Cuando ataca no puede ser defendido con ningun ser de Aire
+Coste: 1A + 2G 
+A: 2  D: 3    Vida: 3  Descargado: Si
+--------VS------------
+------DEFIENDE------------
+
+--------------------------
+
+Coste: 1E + 2G 
+A: 2  D: 3    Vida: 3  Descargado: Si
+Codigo: aberracion
+Nombre: Aberracion Poltergeist
+Elemento: espiritu
+Tipo: Ser
+Descripcion: [pasiva]Cuando ataca no puede ser defendido con ningun ser de Aire
+[uso]Si el brujo lo desea, en una trifulca la Aberración puede copiar los valores de ataque, defensa y comportamiento del ser atacante.
+una vez usado, no se puede usar hasta el turno siguiente.(aparecera el texto a modo informativo pero el uso no estara activo)
+[ayuda]--usar 'aberracion' 'opcional solo si hay mas de una, aclarar cual desea usar' 'objetivo'.
+Coste: 1E + 2G 
+A: 2  D: 3    Vida: 3  Descargado: Si
+
+
+El brujo Brujo B ha sufrido 2 puntos de vida
+Pulse enter para seguir
+¡¡¡Se va a resolver el combate¡¡¡¡
+-------ATACA------------
+
+Coste: 2T + 1G 
+A: 4  D: 3    Vida: 3  Descargado: Si
+Codigo: caballero
+Nombre: Caballero Tremebundo
+Elemento: tierra
+Tipo: Ser
+Descripcion: [pasiva]Cuando ataca gana +N/+0 siendo N el numero de seres de espiritu que le defienden
+Coste: 2T + 1G 
+A: 4  D: 3    Vida: 3  Descargado: Si
+
+Nadie le defiende va directo al brujo
+
+
+El brujo Brujo B ha sufrido 4 puntos de vida
+Pulse enter para seguir
+¡¡¡Se va a resolver el combate¡¡¡¡
+-------ATACA------------
+
+Coste: 3M + 1G 
+A: 3  D: 3    Vida: 3  Descargado: Si
+Codigo: elemental
+Nombre: Elemental de Lluvia
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasiva]Tras una trifulca, el brujo atacante debe devolver a su mano al ser que haya atacado al Elemental
+Coste: 3M + 1G 
+A: 3  D: 3    Vida: 3  Descargado: Si
+
+Nadie le defiende va directo al brujo
+
+
+El brujo Brujo B ha sufrido 3 puntos de vida
+Pulse enter para seguir
+¡¡¡Se va a resolver el combate¡¡¡¡
+-------ATACA------------
+
+Coste: 1E 
+A: 1  D: 1    Vida: 1  Descargado: Si
+Codigo: espectro
+Nombre: Espectro Vampirico
+Elemento: espiritu
+Tipo: Ser
+Descripcion: [pasiva]Gana un +1/+0 al enfrentarse a seres de Tierra, ademas si es atacante +N/+0 siendo N el numero de seres de tierra que le defienden
+Coste: 1E 
+A: 1  D: 1    Vida: 1  Descargado: Si
+--------VS------------
+------DEFIENDE------------
+
+--------------------------
+
+Coste: 3M + 1G 
+A: 3  D: 3    Vida: 3  Descargado: No
+Codigo: elemental
+Nombre: Elemental de Lluvia
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasiva]Tras una trifulca, el brujo atacante debe devolver a su mano al ser que haya atacado al Elemental
+Coste: 3M + 1G 
+A: 3  D: 3    Vida: 3  Descargado: No
+
+
+El ser
+
+Coste: 1E 
+A: 1  D: 1    Vida: -2  Descargado: Si
+Codigo: espectro
+Nombre: Espectro Vampirico
+Elemento: espiritu
+Tipo: Ser
+Descripcion: [pasiva]Gana un +1/+0 al enfrentarse a seres de Tierra, ademas si es atacante +N/+0 siendo N el numero de seres de tierra que le defienden
+Coste: 1E 
+A: 1  D: 1    Vida: -2  Descargado: Si
+ha sufrido 3 puntos de daño
+
+Pulse enter para seguir
+Ha caido un heroes:
+
+Coste: 1E 
+A: 1  D: 1    Vida: -2  Descargado: Si
+Codigo: espectro
+Nombre: Espectro Vampirico
+Elemento: espiritu
+Tipo: Ser
+Descripcion: [pasiva]Gana un +1/+0 al enfrentarse a seres de Tierra, ademas si es atacante +N/+0 siendo N el numero de seres de tierra que le defienden
+Coste: 1E 
+A: 1  D: 1    Vida: -2  Descargado: Si
+del brujo  Brujo A
+
+Pulse enter para seguir
+
+
+El ser
+
+Coste: 3M + 1G 
+A: 3  D: 3    Vida: 2  Descargado: No
+Codigo: elemental
+Nombre: Elemental de Lluvia
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasiva]Tras una trifulca, el brujo atacante debe devolver a su mano al ser que haya atacado al Elemental
+Coste: 3M + 1G 
+A: 3  D: 3    Vida: 2  Descargado: No
+ha sufrido 1 puntos de daño
+
+Pulse enter para seguir
+
+
+
+----¡FIN DE LA RESOLUCION DEL COMBATE!----------
+
+El brujo  Brujo A ha perdido 50 puntos de vida por quemadura de cloro
+Fin del turno del brujo  Brujo A
+Turno del Brujo Brujo B
+
+
+
+Pulse Enter para empezar
+---------------Fase pre-trifulca---------------------------------
+
+Introduzca la accion: 
+Carta no existente, inserte otra
+
+Introduzca la accion: 
+Carta no existente, inserte otra
+
+Introduzca la accion: 
+
+-----------------------------------------------------
+
+Coste: 1E + 2G 
+A: 2  D: 2    Vida: 2  Descargado: No
+Codigo: aberracion
+Nombre: Aberracion Poltergeist
+Elemento: espiritu
+Tipo: Ser
+Descripcion: [uso]Si el brujo lo desea, en una trifulca la Aberración puede copiar los valores de ataque, defensa y comportamiento del ser atacante.
+una vez usado, no se puede usar hasta el turno siguiente.(aparecera el texto a modo informativo pero el uso no estara activo)
+[ayuda]--usar 'aberracion' 'opcional solo si hay mas de una, aclarar cual desea usar' 'objetivo'.
+Coste: 1E + 2G 
+A: 2  D: 2    Vida: 2  Descargado: No
+-----------------------------------------------------
+
+Coste: 2M + 2G 
+A: 1  D: 5    Vida: 5  Descargado: No
+Codigo: ballena
+Nombre: Ballena Monje
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasiva]Pierde un -0/-2 al defenderse de seres de clase Aire
+Coste: 2M + 2G 
+A: 1  D: 5    Vida: 5  Descargado: No
+-----------------------------------------------------
+
+Coste: 3M + 1G 
+A: 3  D: 3    Vida: 3  Descargado: No
+Codigo: elemental
+Nombre: Elemental de Lluvia
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasiva]Tras una trifulca, el brujo atacante debe devolver a su mano al ser que haya atacado al Elemental
+Coste: 3M + 1G 
+A: 3  D: 3    Vida: 3  Descargado: No
+-----------¡¡¡¡¡ENEMIGO!!!!!----------------------------------
+
+-----------------------------------------------------
+
+Coste: 1E 
+A: 1  D: 1    Vida: 1  Descargado: No
+Codigo: espectro
+Nombre: Espectro Vampirico
+Elemento: espiritu
+Tipo: Ser
+Descripcion: [pasiva]Gana un +1/+0 al enfrentarse a seres de Tierra, ademas si es atacante +N/+0 siendo N el numero de seres de tierra que le defienden
+Coste: 1E 
+A: 1  D: 1    Vida: 1  Descargado: No
+-----------------------------------------------------
+
+Coste: 2T + 1G 
+A: 3  D: 2    Vida: 2  Descargado: Si
+Codigo: caballero
+Nombre: Caballero Tremebundo
+Elemento: tierra
+Tipo: Ser
+Descripcion: [pasiva]Cuando ataca gana +N/+0 siendo N el numero de seres de espiritu que le defienden
+Coste: 2T + 1G 
+A: 3  D: 2    Vida: 2  Descargado: Si
+-----------------------------------------------------
+
+Coste: 3M + 1G 
+A: 3  D: 3    Vida: 3  Descargado: Si
+Codigo: elemental
+Nombre: Elemental de Lluvia
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasiva]Tras una trifulca, el brujo atacante debe devolver a su mano al ser que haya atacado al Elemental
+Coste: 3M + 1G 
+A: 3  D: 3    Vida: 3  Descargado: Si
+-----------------------------------------------------
+
+Coste: 2G 
+A: 1  D: 2    Vida: 2  Descargado: No
+Codigo: cucaracha
+Nombre: Cucaracha Indomita
+Elemento: tierra
+Tipo: Ser
+Descripcion: [pasiva]No pueden jugarse intervenciones directamente sobre ella
+Coste: 2G 
+A: 1  D: 2    Vida: 2  Descargado: No
+-----------------------------------------------------
+
+Coste: 1A + 2G 
+A: 2  D: 3    Vida: 3  Descargado: Si
+Codigo: albatros
+Nombre: Albatros Legendario
+Elemento: aire
+Tipo: Ser
+Descripcion: [pasiva]Cuando ataca no puede ser defendido con ningun ser de Aire
+Coste: 1A + 2G 
+A: 2  D: 3    Vida: 3  Descargado: Si
+
+Introduzca la accion: 

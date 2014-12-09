@@ -1,0 +1,24 @@
+BRUJOS&TRIFULCAS 2
+
+# Este es mi mazo de la muerte con el que vejar a los novatos
+@nombre Brujo A
+@frase Muahahah 
+prado 3
+erial 5
+volcan 2
+desierto 5
+cucaracha 4
+lobo 3
+caballero 1
+alabardero 3
+morlaco 3
+raices 3
+furia 3
+colleja 3
+resquemor 3
+picaporte
+picon
+
+# Si no se indica cantidad, se asume un 1
+#
+#impugnacion 3

@@ -1,0 +1,34 @@
+BRUJOS&TRIFULCAS 3
+
+# Este es mi mazo de la muerte con el que vejar a los novatos
+@nombre Brujo B
+@frase on fire
+nodo 3
+pajaro
+isla 1
+portal 1
+# Si no se indica cantidad, se asume un 1
+espectro 1
+psicofonia 1
+lenguado
+@admin
+alabardero
+felino
+trucha
+morlaco
+odin
+@entorno nodo
+@entorno isla
+@entorno erial
+@entorno prado
+
+
+@mano ansia
+@mano colleja
+@mano colleja
+@mano emulsion
+@mano marejadilla
+@mano impugnacion
+@mano rayos
+@mano resquemor
+@mano tsunami

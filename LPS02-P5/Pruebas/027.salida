@@ -1,0 +1,854 @@
+Parametro 'min' no introducido se leera desde el fichero de propiedades
+Parametro 'max' no introducido se leera desde el fichero de propiedades
+Parametro 'mano' no introducido se leera desde el fichero de propiedades
+Parametro 'vidas' no introducido se leera desde el fichero de propiedades
+No has introducido el valor vida en el fichero de propiedades, se cargara por defecto
+El mazo del brujo A se cargo sin fallos
+El mazo del brujo B se cargo sin fallos
+Bienvenido a Brujas & Trifulcas.
+Elige una de las siguientes opciones:
+'1.-Jugar partida 1vs1.
+'2.-Ayuda
+'0.-Salir
+Estas en modo ADMIN
+Turno del Brujo Brujo A
+
+
+
+Pulse Enter para empezar
+---------------Fase pre-trifulca---------------------------------
+
+Introduzca la accion: 
+-------------Fase trifulca---------------------------------
+¡INTERVENCIONES! del brujo Brujo A(Recuerde que ahora puede jugar intervenciones 'codigo' 'propietario' 'objetivo' (depende de la intervencion))
+
+Introduzca la accion: 
+¡INTERVENCIONES! del brujo Brujo B(Recuerde que ahora puede jugar intervenciones 'codigo' 'propietario' 'objetivo' (depende de la intervencion))
+
+Introduzca la accion: 
+¡ATAQUE!Es momento de que asigne atacantes si lo considera oportuno
+
+Introduzca la accion: 
+Al ataque mis valientes, ¡LOK'TAR OGAR!
+
+Introduzca la accion: 
+Al ataque mis valientes, ¡LOK'TAR OGAR!
+
+Introduzca la accion: 
+Al ataque mis valientes, ¡LOK'TAR OGAR!
+
+Introduzca la accion: 
+Al ataque mis valientes, ¡LOK'TAR OGAR!
+
+Introduzca la accion: 
+Al ataque mis valientes, ¡LOK'TAR OGAR!
+
+Introduzca la accion: 
+¡DEFIENDASE! asigne defensores  como guste
+
+Introduzca la accion: 
+Introduzca la carta que quiere defender ,y en caso de haber mas de una, el numero que sera su posicion partiendo del 1 segun se muestra por pantalla
+
+Introduzca la accion: 
+A la defensa, ¡Gloria o muerte!
+
+Introduzca la accion: 
+Introduzca la carta que quiere defender ,y en caso de haber mas de una, el numero que sera su posicion partiendo del 1 segun se muestra por pantalla
+
+Introduzca la accion: 
+A la defensa, ¡Gloria o muerte!
+
+Introduzca la accion: 
+Introduzca la carta que quiere defender ,y en caso de haber mas de una, el numero que sera su posicion partiendo del 1 segun se muestra por pantalla
+
+Introduzca la accion: 
+A la defensa, ¡Gloria o muerte!
+
+Introduzca la accion: 
+Introduzca la carta que quiere defender ,y en caso de haber mas de una, el numero que sera su posicion partiendo del 1 segun se muestra por pantalla
+
+Introduzca la accion: 
+A la defensa, ¡Gloria o muerte!
+
+Introduzca la accion: 
+Introduzca la carta que quiere defender ,y en caso de haber mas de una, el numero que sera su posicion partiendo del 1 segun se muestra por pantalla
+
+Introduzca la accion: 
+A la defensa, ¡Gloria o muerte!
+
+Introduzca la accion: 
+Introduzca la carta que quiere defender ,y en caso de haber mas de una, el numero que sera su posicion partiendo del 1 segun se muestra por pantalla
+
+Introduzca la accion: 
+A la defensa, ¡Gloria o muerte!
+
+Introduzca la accion: 
+
+Introduzca la accion: 
+
+--Combate----------------
+-------ATACA------------
+
+Coste: 2T + 3G 
+A: 4  D: 4    Vida: 4  Descargado: Si
+Codigo: alabardero
+Nombre: Alabardero Cimmerio
+Elemento: tierra
+Tipo: Ser
+Descripcion: [pasiva]Cuando ataca gana +N/+N siendo N el numero de seres de espiritu que le defienden
+[pasiva]Si en la fase trifulca, el brujo que lo controla controla tambien la carta 'Caballero Tremebundo' suma +0/+2
+Coste: 2T + 3G 
+A: 4  D: 4    Vida: 4  Descargado: Si
+--------VS------------
+------DEFIENDE------------
+
+--------------------------
+
+Coste: 1E 
+A: 2  D: 1    Vida: 1  Descargado: No
+Codigo: espectro
+Nombre: Espectro Vampirico
+Elemento: espiritu
+Tipo: Ser
+Descripcion: [pasiva]Gana un +1/+0 al enfrentarse a seres de Tierra, ademas si es atacante +N/+0 siendo N el numero de seres de tierra que le defienden
+Coste: 1E 
+A: 2  D: 1    Vida: 1  Descargado: No
+--------------------------
+
+Coste: 1M + 2G 
+A: 2  D: 1    Vida: 1  Descargado: No
+Codigo: trucha
+Nombre: Hombre-Trucha
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasivo]Aumenta N puntos su defensa donde N es el numero de seres que le defiende que no sean de tipo Mar
+Coste: 1M + 2G 
+A: 2  D: 1    Vida: 1  Descargado: No
+--Combate----------------
+-------ATACA------------
+
+Coste: 1A + 2G 
+A: 2  D: 3    Vida: 3  Descargado: Si
+Codigo: albatros
+Nombre: Albatros Legendario
+Elemento: aire
+Tipo: Ser
+Descripcion: [pasiva]Cuando ataca no puede ser defendido con ningun ser de Aire
+Coste: 1A + 2G 
+A: 2  D: 3    Vida: 3  Descargado: Si
+--------VS------------
+------DEFIENDE------------
+
+--------------------------
+
+Coste: 1E + 2G 
+A: 2  D: 3    Vida: 3  Descargado: No
+Codigo: aberracion
+Nombre: Aberracion Poltergeist
+Elemento: espiritu
+Tipo: Ser
+Descripcion: [pasiva]Cuando ataca no puede ser defendido con ningun ser de Aire
+[uso]Si el brujo lo desea, en una trifulca la Aberración puede copiar los valores de ataque, defensa y comportamiento del ser atacante.
+una vez usado, no se puede usar hasta el turno siguiente.(aparecera el texto a modo informativo pero el uso no estara activo)
+[ayuda]--usar 'aberracion' 'opcional solo si hay mas de una, aclarar cual desea usar' 'objetivo'.
+Coste: 1E + 2G 
+A: 2  D: 3    Vida: 3  Descargado: No
+--Combate----------------
+-------ATACA------------
+
+Coste: 1E 
+A: 2  D: 1    Vida: 1  Descargado: Si
+Codigo: espectro
+Nombre: Espectro Vampirico
+Elemento: espiritu
+Tipo: Ser
+Descripcion: [pasiva]Gana un +1/+0 al enfrentarse a seres de Tierra, ademas si es atacante +N/+0 siendo N el numero de seres de tierra que le defienden
+Coste: 1E 
+A: 2  D: 1    Vida: 1  Descargado: Si
+--------VS------------
+------DEFIENDE------------
+
+--------------------------
+
+Coste: 2T + 1G 
+A: 3  D: 2    Vida: 2  Descargado: No
+Codigo: caballero
+Nombre: Caballero Tremebundo
+Elemento: tierra
+Tipo: Ser
+Descripcion: [pasiva]Cuando ataca gana +N/+0 siendo N el numero de seres de espiritu que le defienden
+Coste: 2T + 1G 
+A: 3  D: 2    Vida: 2  Descargado: No
+--Combate----------------
+-------ATACA------------
+
+Coste: 2A + 1G 
+A: 4  D: 0    Vida: 0  Descargado: Si
+Codigo: tornado
+Nombre: Tornado de Oriente
+Elemento: aire
+Tipo: Ser
+Descripcion: [pasiva]Multiplica por 2 su daño cuando daña directamente a un brujo
+Coste: 2A + 1G 
+A: 4  D: 0    Vida: 0  Descargado: Si
+
+Nadie le defiende va directo al brujo
+--Combate----------------
+-------ATACA------------
+
+Coste: 1M + 2G 
+A: 2  D: 2    Vida: 2  Descargado: Si
+Codigo: trucha
+Nombre: Hombre-Trucha
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasivo]Aumenta N puntos su defensa donde N es el numero de seres que le defiende que no sean de tipo Mar
+Coste: 1M + 2G 
+A: 2  D: 2    Vida: 2  Descargado: Si
+--------VS------------
+------DEFIENDE------------
+
+--------------------------
+
+Coste: 2M + 2G 
+A: 1  D: 5    Vida: 5  Descargado: No
+Codigo: ballena
+Nombre: Ballena Monje
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasiva]Pierde un -0/-2 al defenderse de seres de clase Aire
+Coste: 2M + 2G 
+A: 1  D: 5    Vida: 5  Descargado: No
+--------------------------
+
+Coste: 1A + 2G 
+A: 2  D: 3    Vida: 3  Descargado: No
+Codigo: albatros
+Nombre: Albatros Legendario
+Elemento: aire
+Tipo: Ser
+Descripcion: [pasiva]Cuando ataca no puede ser defendido con ningun ser de Aire
+Coste: 1A + 2G 
+A: 2  D: 3    Vida: 3  Descargado: No
+
+Introduzca la accion: 
+¡INTERVENCIONES! del brujo Brujo A(Recuerde que ahora puede jugar intervenciones 'codigo' 'propietario' 'objetivo' (depende de la intervencion))
+
+Introduzca la accion: 
+¡INTERVENCIONES! del brujo Brujo B(Recuerde que ahora puede jugar intervenciones 'codigo' 'propietario' 'objetivo' (depende de la intervencion))
+
+Introduzca la accion: 
+¡¡¡Se va a resolver el combate¡¡¡¡
+-------ATACA------------
+
+Coste: 2T + 3G 
+A: 4  D: 4    Vida: 4  Descargado: Si
+Codigo: alabardero
+Nombre: Alabardero Cimmerio
+Elemento: tierra
+Tipo: Ser
+Descripcion: [pasiva]Cuando ataca gana +N/+N siendo N el numero de seres de espiritu que le defienden
+[pasiva]Si en la fase trifulca, el brujo que lo controla controla tambien la carta 'Caballero Tremebundo' suma +0/+2
+Coste: 2T + 3G 
+A: 4  D: 4    Vida: 4  Descargado: Si
+--------VS------------
+------DEFIENDE------------
+
+--------------------------
+
+Coste: 1E 
+A: 2  D: 1    Vida: 1  Descargado: No
+Codigo: espectro
+Nombre: Espectro Vampirico
+Elemento: espiritu
+Tipo: Ser
+Descripcion: [pasiva]Gana un +1/+0 al enfrentarse a seres de Tierra, ademas si es atacante +N/+0 siendo N el numero de seres de tierra que le defienden
+Coste: 1E 
+A: 2  D: 1    Vida: 1  Descargado: No
+--------------------------
+
+Coste: 1M + 2G 
+A: 2  D: 1    Vida: 1  Descargado: No
+Codigo: trucha
+Nombre: Hombre-Trucha
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasivo]Aumenta N puntos su defensa donde N es el numero de seres que le defiende que no sean de tipo Mar
+Coste: 1M + 2G 
+A: 2  D: 1    Vida: 1  Descargado: No
+
+
+El ser
+
+Coste: 2T + 3G 
+A: 4  D: 4    Vida: 0  Descargado: Si
+Codigo: alabardero
+Nombre: Alabardero Cimmerio
+Elemento: tierra
+Tipo: Ser
+Descripcion: [pasiva]Cuando ataca gana +N/+N siendo N el numero de seres de espiritu que le defienden
+[pasiva]Si en la fase trifulca, el brujo que lo controla controla tambien la carta 'Caballero Tremebundo' suma +0/+2
+Coste: 2T + 3G 
+A: 4  D: 4    Vida: 0  Descargado: Si
+ha sufrido 4 puntos de daño
+
+Pulse enter para seguir
+
+
+El ser
+
+Coste: 1E 
+A: 2  D: 1    Vida: -1  Descargado: No
+Codigo: espectro
+Nombre: Espectro Vampirico
+Elemento: espiritu
+Tipo: Ser
+Descripcion: [pasiva]Gana un +1/+0 al enfrentarse a seres de Tierra, ademas si es atacante +N/+0 siendo N el numero de seres de tierra que le defienden
+Coste: 1E 
+A: 2  D: 1    Vida: -1  Descargado: No
+ha sufrido 2 puntos de daño
+
+Pulse enter para seguir
+Ha caido un heroes:
+
+Coste: 1E 
+A: 2  D: 1    Vida: -1  Descargado: No
+Codigo: espectro
+Nombre: Espectro Vampirico
+Elemento: espiritu
+Tipo: Ser
+Descripcion: [pasiva]Gana un +1/+0 al enfrentarse a seres de Tierra, ademas si es atacante +N/+0 siendo N el numero de seres de tierra que le defienden
+Coste: 1E 
+A: 2  D: 1    Vida: -1  Descargado: No
+del brujo Brujo B
+
+Pulse enter para seguir
+
+
+El ser
+
+Coste: 1M + 2G 
+A: 2  D: 1    Vida: -1  Descargado: No
+Codigo: trucha
+Nombre: Hombre-Trucha
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasivo]Aumenta N puntos su defensa donde N es el numero de seres que le defiende que no sean de tipo Mar
+Coste: 1M + 2G 
+A: 2  D: 1    Vida: -1  Descargado: No
+ha sufrido 2 puntos de daño
+
+Pulse enter para seguir
+Ha caido un heroes:
+
+Coste: 1M + 2G 
+A: 2  D: 1    Vida: -1  Descargado: No
+Codigo: trucha
+Nombre: Hombre-Trucha
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasivo]Aumenta N puntos su defensa donde N es el numero de seres que le defiende que no sean de tipo Mar
+Coste: 1M + 2G 
+A: 2  D: 1    Vida: -1  Descargado: No
+del brujo Brujo B
+
+Pulse enter para seguir
+
+Los seres defensores han muerto todos
+¡¡¡Se va a resolver el combate¡¡¡¡
+-------ATACA------------
+
+Coste: 1A + 2G 
+A: 2  D: 3    Vida: 3  Descargado: Si
+Codigo: albatros
+Nombre: Albatros Legendario
+Elemento: aire
+Tipo: Ser
+Descripcion: [pasiva]Cuando ataca no puede ser defendido con ningun ser de Aire
+Coste: 1A + 2G 
+A: 2  D: 3    Vida: 3  Descargado: Si
+--------VS------------
+------DEFIENDE------------
+
+--------------------------
+
+Coste: 1E + 2G 
+A: 2  D: 3    Vida: 3  Descargado: No
+Codigo: aberracion
+Nombre: Aberracion Poltergeist
+Elemento: espiritu
+Tipo: Ser
+Descripcion: [pasiva]Cuando ataca no puede ser defendido con ningun ser de Aire
+[uso]Si el brujo lo desea, en una trifulca la Aberración puede copiar los valores de ataque, defensa y comportamiento del ser atacante.
+una vez usado, no se puede usar hasta el turno siguiente.(aparecera el texto a modo informativo pero el uso no estara activo)
+[ayuda]--usar 'aberracion' 'opcional solo si hay mas de una, aclarar cual desea usar' 'objetivo'.
+Coste: 1E + 2G 
+A: 2  D: 3    Vida: 3  Descargado: No
+
+
+El ser
+
+Coste: 1A + 2G 
+A: 2  D: 3    Vida: 1  Descargado: Si
+Codigo: albatros
+Nombre: Albatros Legendario
+Elemento: aire
+Tipo: Ser
+Descripcion: [pasiva]Cuando ataca no puede ser defendido con ningun ser de Aire
+Coste: 1A + 2G 
+A: 2  D: 3    Vida: 1  Descargado: Si
+ha sufrido 2 puntos de daño
+
+Pulse enter para seguir
+
+
+El ser
+
+Coste: 1E + 2G 
+A: 2  D: 3    Vida: 1  Descargado: No
+Codigo: aberracion
+Nombre: Aberracion Poltergeist
+Elemento: espiritu
+Tipo: Ser
+Descripcion: [pasiva]Cuando ataca no puede ser defendido con ningun ser de Aire
+[uso]Si el brujo lo desea, en una trifulca la Aberración puede copiar los valores de ataque, defensa y comportamiento del ser atacante.
+una vez usado, no se puede usar hasta el turno siguiente.(aparecera el texto a modo informativo pero el uso no estara activo)
+[ayuda]--usar 'aberracion' 'opcional solo si hay mas de una, aclarar cual desea usar' 'objetivo'.
+Coste: 1E + 2G 
+A: 2  D: 3    Vida: 1  Descargado: No
+ha sufrido 2 puntos de daño
+
+Pulse enter para seguir
+¡¡¡Se va a resolver el combate¡¡¡¡
+-------ATACA------------
+
+Coste: 1E 
+A: 2  D: 1    Vida: 1  Descargado: Si
+Codigo: espectro
+Nombre: Espectro Vampirico
+Elemento: espiritu
+Tipo: Ser
+Descripcion: [pasiva]Gana un +1/+0 al enfrentarse a seres de Tierra, ademas si es atacante +N/+0 siendo N el numero de seres de tierra que le defienden
+Coste: 1E 
+A: 2  D: 1    Vida: 1  Descargado: Si
+--------VS------------
+------DEFIENDE------------
+
+--------------------------
+
+Coste: 2T + 1G 
+A: 3  D: 2    Vida: 2  Descargado: No
+Codigo: caballero
+Nombre: Caballero Tremebundo
+Elemento: tierra
+Tipo: Ser
+Descripcion: [pasiva]Cuando ataca gana +N/+0 siendo N el numero de seres de espiritu que le defienden
+Coste: 2T + 1G 
+A: 3  D: 2    Vida: 2  Descargado: No
+
+
+El ser
+
+Coste: 1E 
+A: 2  D: 1    Vida: -2  Descargado: Si
+Codigo: espectro
+Nombre: Espectro Vampirico
+Elemento: espiritu
+Tipo: Ser
+Descripcion: [pasiva]Gana un +1/+0 al enfrentarse a seres de Tierra, ademas si es atacante +N/+0 siendo N el numero de seres de tierra que le defienden
+Coste: 1E 
+A: 2  D: 1    Vida: -2  Descargado: Si
+ha sufrido 3 puntos de daño
+
+Pulse enter para seguir
+Ha caido un heroes:
+
+Coste: 1E 
+A: 2  D: 1    Vida: -2  Descargado: Si
+Codigo: espectro
+Nombre: Espectro Vampirico
+Elemento: espiritu
+Tipo: Ser
+Descripcion: [pasiva]Gana un +1/+0 al enfrentarse a seres de Tierra, ademas si es atacante +N/+0 siendo N el numero de seres de tierra que le defienden
+Coste: 1E 
+A: 2  D: 1    Vida: -2  Descargado: Si
+del brujo Brujo A
+
+Pulse enter para seguir
+
+
+El ser
+
+Coste: 2T + 1G 
+A: 3  D: 2    Vida: 0  Descargado: No
+Codigo: caballero
+Nombre: Caballero Tremebundo
+Elemento: tierra
+Tipo: Ser
+Descripcion: [pasiva]Cuando ataca gana +N/+0 siendo N el numero de seres de espiritu que le defienden
+Coste: 2T + 1G 
+A: 3  D: 2    Vida: 0  Descargado: No
+ha sufrido 2 puntos de daño
+
+Pulse enter para seguir
+¡¡¡Se va a resolver el combate¡¡¡¡
+-------ATACA------------
+
+Coste: 2A + 1G 
+A: 8  D: 0    Vida: 0  Descargado: Si
+Codigo: tornado
+Nombre: Tornado de Oriente
+Elemento: aire
+Tipo: Ser
+Descripcion: [pasiva]Multiplica por 2 su daño cuando daña directamente a un brujo
+Coste: 2A + 1G 
+A: 8  D: 0    Vida: 0  Descargado: Si
+
+Nadie le defiende va directo al brujo
+
+
+El brujo Brujo B ha sufrido 8 puntos de vida
+Pulse enter para seguir
+¡¡¡Se va a resolver el combate¡¡¡¡
+-------ATACA------------
+
+Coste: 1M + 2G 
+A: 2  D: 2    Vida: 2  Descargado: Si
+Codigo: trucha
+Nombre: Hombre-Trucha
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasivo]Aumenta N puntos su defensa donde N es el numero de seres que le defiende que no sean de tipo Mar
+Coste: 1M + 2G 
+A: 2  D: 2    Vida: 2  Descargado: Si
+--------VS------------
+------DEFIENDE------------
+
+--------------------------
+
+Coste: 2M + 2G 
+A: 1  D: 5    Vida: 5  Descargado: No
+Codigo: ballena
+Nombre: Ballena Monje
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasiva]Pierde un -0/-2 al defenderse de seres de clase Aire
+Coste: 2M + 2G 
+A: 1  D: 5    Vida: 5  Descargado: No
+--------------------------
+
+Coste: 1A + 2G 
+A: 2  D: 3    Vida: 3  Descargado: No
+Codigo: albatros
+Nombre: Albatros Legendario
+Elemento: aire
+Tipo: Ser
+Descripcion: [pasiva]Cuando ataca no puede ser defendido con ningun ser de Aire
+Coste: 1A + 2G 
+A: 2  D: 3    Vida: 3  Descargado: No
+
+
+El ser
+
+Coste: 1M + 2G 
+A: 2  D: 2    Vida: -1  Descargado: Si
+Codigo: trucha
+Nombre: Hombre-Trucha
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasivo]Aumenta N puntos su defensa donde N es el numero de seres que le defiende que no sean de tipo Mar
+Coste: 1M + 2G 
+A: 2  D: 2    Vida: -1  Descargado: Si
+ha sufrido 3 puntos de daño
+
+Pulse enter para seguir
+Ha caido un heroes:
+
+Coste: 1M + 2G 
+A: 2  D: 2    Vida: -1  Descargado: Si
+Codigo: trucha
+Nombre: Hombre-Trucha
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasivo]Aumenta N puntos su defensa donde N es el numero de seres que le defiende que no sean de tipo Mar
+Coste: 1M + 2G 
+A: 2  D: 2    Vida: -1  Descargado: Si
+del brujo Brujo A
+
+Pulse enter para seguir
+---------------
+Reparta 2 entre tus defensores
+
+-----
+1-->
+Coste: 2M + 2G 
+A: 1  D: 5    Vida: 5  Descargado: No
+Codigo: ballena
+Nombre: Ballena Monje
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasiva]Pierde un -0/-2 al defenderse de seres de clase Aire
+Coste: 2M + 2G 
+A: 1  D: 5    Vida: 5  Descargado: No
+-----
+2-->
+Coste: 1A + 2G 
+A: 2  D: 3    Vida: 3  Descargado: No
+Codigo: albatros
+Nombre: Albatros Legendario
+Elemento: aire
+Tipo: Ser
+Descripcion: [pasiva]Cuando ataca no puede ser defendido con ningun ser de Aire
+Coste: 1A + 2G 
+A: 2  D: 3    Vida: 3  Descargado: No
+Introduce --daño 'cantidad' 'codigo'(si hubiera mas de uno especificar mediante un entero su posicion, contando solo las que sean iguales)
+ para asignar daño
+Si desea no repartir mas daño introduzca '--sig'.
+Si desea volver a ver la criaturas use '--ver'
+Le falta por repatir 2 daño.
+Introduzca datos:
+
+
+El brujo Brujo B ha sufrido 2 puntos de vida
+Pulse enter para seguir
+
+
+
+----¡FIN DE LA RESOLUCION DEL COMBATE!----------
+
+El brujo Brujo A ha perdido 50 puntos de vida por quemadura de cloro
+Fin del turno del brujo Brujo A
+Turno del Brujo Brujo B
+
+
+
+Pulse Enter para empezar
+---------------Fase pre-trifulca---------------------------------
+
+Introduzca la accion: 
+-------------Fase trifulca---------------------------------
+¡INTERVENCIONES! del brujo Brujo B(Recuerde que ahora puede jugar intervenciones 'codigo' 'propietario' 'objetivo' (depende de la intervencion))
+
+Introduzca la accion: 
+¡INTERVENCIONES! del brujo Brujo A(Recuerde que ahora puede jugar intervenciones 'codigo' 'propietario' 'objetivo' (depende de la intervencion))
+
+Introduzca la accion: 
+
+Introduzca la accion: 
+
+Introduzca la accion: 
+
+Introduzca la accion: 
+
+-----------------------------------------------------
+
+Coste: 2T + 1G 
+A: 3  D: 2    Vida: 2  Descargado: No
+Codigo: caballero
+Nombre: Caballero Tremebundo
+Elemento: tierra
+Tipo: Ser
+Descripcion: [pasiva]Cuando ataca gana +N/+0 siendo N el numero de seres de espiritu que le defienden
+Coste: 2T + 1G 
+A: 3  D: 2    Vida: 2  Descargado: No
+-----------------------------------------------------
+
+Coste: 1T 
+A: 1  D: 1    Vida: 1  Descargado: No
+Codigo: felino
+Nombre: Felino Lascivo
+Elemento: tierra
+Tipo: Ser
+Descripcion: 
+Coste: 1T 
+A: 1  D: 1    Vida: 1  Descargado: No
+-----------------------------------------------------
+
+Coste: 2T + 3G 
+A: 3  D: 1    Vida: 1  Descargado: Si
+Codigo: alabardero
+Nombre: Alabardero Cimmerio
+Elemento: tierra
+Tipo: Ser
+Descripcion: [pasiva]Cuando ataca gana +N/+N siendo N el numero de seres de espiritu que le defienden
+[pasiva]Si en la fase trifulca, el brujo que lo controla controla tambien la carta 'Caballero Tremebundo' suma +0/+2
+Coste: 2T + 3G 
+A: 3  D: 1    Vida: 1  Descargado: Si
+-----------------------------------------------------
+
+Coste: 1E + 2G 
+A: 2  D: 2    Vida: 2  Descargado: No
+Codigo: aberracion
+Nombre: Aberracion Poltergeist
+Elemento: espiritu
+Tipo: Ser
+Descripcion: [uso]Si el brujo lo desea, en una trifulca la Aberración puede copiar los valores de ataque, defensa y comportamiento del ser atacante.
+una vez usado, no se puede usar hasta el turno siguiente.(aparecera el texto a modo informativo pero el uso no estara activo)
+[ayuda]--usar 'aberracion' 'opcional solo si hay mas de una, aclarar cual desea usar' 'objetivo'.
+Coste: 1E + 2G 
+A: 2  D: 2    Vida: 2  Descargado: No
+-----------------------------------------------------
+
+Coste: 2M + 2G 
+A: 1  D: 5    Vida: 5  Descargado: No
+Codigo: ballena
+Nombre: Ballena Monje
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasiva]Pierde un -0/-2 al defenderse de seres de clase Aire
+Coste: 2M + 2G 
+A: 1  D: 5    Vida: 5  Descargado: No
+-----------------------------------------------------
+
+Coste: 4A + 2G 
+A: 6  D: 3    Vida: 3  Descargado: No
+Codigo: odin
+Nombre: Odin el Mismisimo
+Elemento: aire
+Tipo: Ser
+Descripcion: [pasiva]No se puede jugar intervenciones directamente sobre el.
+[pasiva]Cuando ataca, las criaturas que se hayan defendido de el se retiran del juego
+y el brujo propietario pierde 1 punto de vida
+Coste: 4A + 2G 
+A: 6  D: 3    Vida: 3  Descargado: No
+-----------------------------------------------------
+
+Coste: 1A + 2G 
+A: 2  D: 3    Vida: 3  Descargado: Si
+Codigo: albatros
+Nombre: Albatros Legendario
+Elemento: aire
+Tipo: Ser
+Descripcion: [pasiva]Cuando ataca no puede ser defendido con ningun ser de Aire
+Coste: 1A + 2G 
+A: 2  D: 3    Vida: 3  Descargado: Si
+-----------------------------------------------------
+
+Coste: 2A + 1G 
+A: 4  D: 0    Vida: 0  Descargado: Si
+Codigo: tornado
+Nombre: Tornado de Oriente
+Elemento: aire
+Tipo: Ser
+Descripcion: [pasiva]Multiplica por 2 su daño cuando daña directamente a un brujo
+Coste: 2A + 1G 
+A: 4  D: 0    Vida: 0  Descargado: Si
+-----------------------------------------------------
+
+Coste: 2T + 2G 
+A: 0  D: 5    Vida: 5  Descargado: No
+Codigo: morlaco
+Nombre: Morlaco Vetusto
+Elemento: tierra
+Tipo: Ser
+Descripcion: [pasiva]Cuando se aigna al combate para atacar, los seres enemigos solo pueden defenderle a el(si quieren defender)
+Coste: 2T + 2G 
+A: 0  D: 5    Vida: 5  Descargado: No
+-----------¡¡¡¡¡ENEMIGO!!!!!----------------------------------
+
+-----------------------------------------------------
+
+Coste: 2T + 1G 
+A: 3  D: 2    Vida: 2  Descargado: No
+Codigo: caballero
+Nombre: Caballero Tremebundo
+Elemento: tierra
+Tipo: Ser
+Descripcion: [pasiva]Cuando ataca gana +N/+0 siendo N el numero de seres de espiritu que le defienden
+Coste: 2T + 1G 
+A: 3  D: 2    Vida: 2  Descargado: No
+-----------------------------------------------------
+
+Coste: 1T 
+A: 1  D: 1    Vida: 1  Descargado: No
+Codigo: felino
+Nombre: Felino Lascivo
+Elemento: tierra
+Tipo: Ser
+Descripcion: 
+Coste: 1T 
+A: 1  D: 1    Vida: 1  Descargado: No
+-----------------------------------------------------
+
+Coste: 2T + 3G 
+A: 3  D: 1    Vida: 1  Descargado: No
+Codigo: alabardero
+Nombre: Alabardero Cimmerio
+Elemento: tierra
+Tipo: Ser
+Descripcion: [pasiva]Cuando ataca gana +N/+N siendo N el numero de seres de espiritu que le defienden
+[pasiva]Si en la fase trifulca, el brujo que lo controla controla tambien la carta 'Caballero Tremebundo' suma +0/+2
+Coste: 2T + 3G 
+A: 3  D: 1    Vida: 1  Descargado: No
+-----------------------------------------------------
+
+Coste: 1E + 2G 
+A: 2  D: 2    Vida: 2  Descargado: No
+Codigo: aberracion
+Nombre: Aberracion Poltergeist
+Elemento: espiritu
+Tipo: Ser
+Descripcion: [uso]Si el brujo lo desea, en una trifulca la Aberración puede copiar los valores de ataque, defensa y comportamiento del ser atacante.
+una vez usado, no se puede usar hasta el turno siguiente.(aparecera el texto a modo informativo pero el uso no estara activo)
+[ayuda]--usar 'aberracion' 'opcional solo si hay mas de una, aclarar cual desea usar' 'objetivo'.
+Coste: 1E + 2G 
+A: 2  D: 2    Vida: 2  Descargado: No
+-----------------------------------------------------
+
+Coste: 2M + 2G 
+A: 1  D: 5    Vida: 5  Descargado: No
+Codigo: ballena
+Nombre: Ballena Monje
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasiva]Pierde un -0/-2 al defenderse de seres de clase Aire
+Coste: 2M + 2G 
+A: 1  D: 5    Vida: 5  Descargado: No
+-----------------------------------------------------
+
+Coste: 4A + 2G 
+A: 6  D: 3    Vida: 3  Descargado: No
+Codigo: odin
+Nombre: Odin el Mismisimo
+Elemento: aire
+Tipo: Ser
+Descripcion: [pasiva]No se puede jugar intervenciones directamente sobre el.
+[pasiva]Cuando ataca, las criaturas que se hayan defendido de el se retiran del juego
+y el brujo propietario pierde 1 punto de vida
+Coste: 4A + 2G 
+A: 6  D: 3    Vida: 3  Descargado: No
+-----------------------------------------------------
+
+Coste: 2A + 1G 
+A: 4  D: 0    Vida: 0  Descargado: No
+Codigo: tornado
+Nombre: Tornado de Oriente
+Elemento: aire
+Tipo: Ser
+Descripcion: [pasiva]Multiplica por 2 su daño cuando daña directamente a un brujo
+Coste: 2A + 1G 
+A: 4  D: 0    Vida: 0  Descargado: No
+-----------------------------------------------------
+
+Coste: 1A + 2G 
+A: 2  D: 3    Vida: 3  Descargado: No
+Codigo: albatros
+Nombre: Albatros Legendario
+Elemento: aire
+Tipo: Ser
+Descripcion: [pasiva]Cuando ataca no puede ser defendido con ningun ser de Aire
+Coste: 1A + 2G 
+A: 2  D: 3    Vida: 3  Descargado: No
+-----------------------------------------------------
+
+Coste: 2T + 2G 
+A: 0  D: 5    Vida: 5  Descargado: No
+Codigo: morlaco
+Nombre: Morlaco Vetusto
+Elemento: tierra
+Tipo: Ser
+Descripcion: [pasiva]Cuando se aigna al combate para atacar, los seres enemigos solo pueden defenderle a el(si quieren defender)
+Coste: 2T + 2G 
+A: 0  D: 5    Vida: 5  Descargado: No
+
+Introduzca la accion: 

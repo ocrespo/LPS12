@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE game SYSTEM "TCML.dtd">
+<!-- EARTH -->
+<game title="Brujos y Trifulcas (TM) + Chirimbolo Fantasma + Trono de Juegos" author="Oscar Crespo Salazar" version="5">
+<!-- environments -->
+<card>
+	<enviroment code="prado" name="Prado infantil" element="earth" img="imagenes//cartas//prado.jpg" max="3">
+		<description>Permite recolectar 1 cloro de Tierra y 1 cloro generico</description>
+		<action type="active" name="addMana">
+			<mana earth="1" generic="1"></mana>
+			<allEquals value="False"></allEquals>
+			<selfElement value="earth"></selfElement>
+		</action>
+	</enviroment>
+</card>
+<card> 
+	<enviroment code="desierto" name="Desierto Austral" element="earth" img="imagenes//cartas//desierto.jpg" max="0">
+		<description>Permite recolectar 1 cloro de Tierra</description>
+		<action type="active" name="addMana">
+			<mana earth="1"></mana>
+			<allEquals value="False"></allEquals>
+			<selfElement value="earth"></selfElement>
+		</action>
+	</enviroment>
+</card>
+
+<card>
+	<enviroment code="erial" name="Erial Glamuroso" element="earth" img="imagenes//cartas//erial.jpg" max="0">
+		<description>Permite recolectar 1 cloro de Tierra</description>
+		<action type="active" name="addMana">
+			<mana earth="1"></mana>
+			<allEquals value="False"></allEquals>
+			<selfElement value="earth"></selfElement>
+		</action>
+	</enviroment>
+</card>
+<!-- entity -->
+<card>
+	<entity code="cucaracha" name="Cucaracha Indomita" element="earth" attack="1" defense="2" img="imagenes//cartas//cucaracha.jpg" max="0">
+		<description>No pueden jugarse intervenciones directamente sobre ella</description>
+		<cost generic="2"></cost>
+		<action type="passive" name="CantTargetIntervention"></action>
+	</entity>
+</card>
+
+<card>
+	<entity code="lobo" name="Lobo Estepario" element="earth" attack="2" defense="1" img="imagenes//cartas//lobo.jpg" max="3">
+		<description>Al final del turno se descargan los seres que se hayan defendido de él</description>
+		<cost earth="2"></cost>
+		<action type="finally" name="TurnAllDefender"></action>
+	</entity>
+</card>
+
+<card>
+	<entity code="caballero" name="Caballero Tremebundo" element="earth" attack="3" defense="2" img="imagenes//cartas//caballero.jpg" max="1">
+		<description>Cuando ataca gana +N/+0 siendo N el numero de seres de espiritu que le defienden</description>
+		<cost earth="2" generic="1"></cost>
+		<action type="attack" name="AttackStatsModifier">
+			<element value="spirit"></element>
+			<isElementPlus value="True"></isElementPlus>
+			<attack value="1"></attack>
+			<defense value="1"></defense>
+			<canAcu value="True"></canAcu>
+		</action>
+	</entity>
+</card>
+<card>
+	<entity code="alabardero" name="Alabardero Cimmerio" element="earth" attack="3" defense="1" img="imagenes//cartas//alabardero.jpg" max="0">
+		<description>Cuando ataca gana +N/+N siendo N el numero de seres de espiritu que le defienden
+			Si en la fase trifulca, el brujo que lo controla controla tambien la carta 'Caballero Tremebundo' 
+			suma +0/+2</description>
+		<cost earth="2" generic="3"></cost>
+		<action type="attack" name="AttackStatsModifier">
+			<element value="spirit"></element>
+			<isElementPlus value="True"></isElementPlus>
+			<attack value="1"></attack>
+			<defense value="1"></defense>
+			<canAcu value="True"></canAcu>
+		</action>
+		<action type="passive" name="StatsModifiersCardInGame">
+			<attack value="0"></attack>
+			<defense value="2"></defense>
+			<code value="caballero"></code>
+		</action>
+	</entity>
+</card>
+<card>
+	<entity code="morlaco" name="Morlaco Vetusto" element="earth" attack="0" defense="5" img="imagenes//cartas//morlaco.jpg" max="3">
+		<description>Cuando se aigna al combate para atacar,
+			los seres enemigos solo pueden defenderle a el(si quieren defender)</description>
+		<cost earth="2" generic="2"></cost>
+		<action type="attack" name="OnlyDefenseMe"></action>
+	</entity>
+</card>
+<card>
+	<entity code="felino" name="Felino Lascivo" element="earth" attack="1" defense="1" img="imagenes//cartas//felino.jpg" max="0">
+		<cost earth="1"></cost>
+	</entity>
+</card>
+<!-- intervention -->
+<card>
+	<intervention code="furia" name="Furia Parda" element="earth" img="imagenes//cartas//furia.jpg" max="3">
+		<description>Multiplica por 2 el ataque de un ser durante una trifulca</description>
+		<cost earth="1"></cost>
+		<action type="active" name="MultiplyStatsModifiers">
+			<attack value="2"></attack>
+			<defense value="1"></defense>
+			<permanent value="False"></permanent>
+			<needCombat value="False"></needCombat>
+		</action>
+	</intervention>
+</card>
+<card>
+	<intervention code="raices" name="Raices de Asfixia" element="earth" img="imagenes//cartas//raices.jpg" max="3">
+		<description>Descarga por completo a un ser</description>
+		<cost earth="1" generic="1"></cost>
+		<action type="active" name="Turn">
+		</action>
+	</intervention>
+</card>
+<card>
+	<intervention code="colleja" name="Colleja Mnemotecnica" element="earth" img="imagenes//cartas//colleja.jpg" max="3">
+		<description>El ser objetivo sufre tantos puntos de vida como ataque tiene</description>
+		<cost earth="1" generic="1"></cost>
+		<action type="active" name="DamageAttackStat">
+		</action>
+	</intervention>
+</card>
+<card>
+	<intervention code="resquemor" name="Resquemor del Labriego" element="earth" img="imagenes//cartas//resquemor.jpg" max="3">
+		<description>Esta intervencion debe jugarse cuando se hayan asignado defensores. 
+			Resta 2 puntos de defensa a todos los defensores</description>
+		<cost earth="3"></cost>
+		<action type="active" name="DefenderAllStatsModifiers">
+			<attack value="0"></attack>
+			<defense value="-2"></defense>
+		</action>
+	</intervention>
+</card>
+<!-- SEA -->
+<!-- environments -->
+<card> 
+	<enviroment code="fosa" name="Fosa Septica" element="sea" img="imagenes//cartas//fosa.jpg" max="0">
+		<description>Permite recolectar 1 cloro de Mar</description>
+		<action type="active" name="addMana">
+			<mana sea="1"></mana>
+			<allEquals value="False"></allEquals>
+			<selfElement value="sea"></selfElement>
+		</action>
+	</enviroment>
+</card>
+<card> 
+	<enviroment code="peninsula" name="Peninsula Emerita" element="sea" img="imagenes//cartas//peninsula.jpg" max="3">
+		<description>Permite recolectar 1 cloro de Mar y 1 cloro generico</description>
+		<action type="active" name="addMana">
+			<mana sea="1" generic="1"></mana>
+			<allEquals value="False"></allEquals>
+			<selfElement value="sea"></selfElement>
+		</action>
+	</enviroment>
+</card>
+<card>
+	<enviroment code="isla" name="Isla de Lesbos" element="sea" img="imagenes//cartas//isla.jpg" max="1">
+		<description>Permite recolectar 1 cloro de Mar,
+			además si solo controla entornos del tipo Mar se añaden n Mares adiciones,
+			siendo n el numero de entornos</description>
+		<action type="active" name="addMana">
+			<mana sea="1"></mana>
+			<allEquals value="True"></allEquals>
+			<selfElement value="sea"></selfElement>
+		</action>
+	</enviroment>
+</card>
+
+<!-- entity -->
+<card>
+	<entity code="lenguado" name="Lenguado Sibilino" element="sea" attack="2" defense="0" img="imagenes//cartas//lenguado.jpg" max="0">
+		<cost sea="1"></cost>
+	</entity>
+</card>
+<card>
+	<entity code="ballena" name="Ballena Monje" element="sea" attack="1" defense="5" img="imagenes//cartas//ballena.jpg" max="3">
+		<description>Pierde un -0/-2 al defenderse de seres de clase Aire</description>
+		<cost sea="2" generic="2"></cost>
+		<action type="defense" name="DefenseStatsModifier">
+			<element value="air"></element>
+			<attack value="0"></attack>
+			<defense value="-2"></defense>
+		</action>
+	</entity>
+</card>
+<card>
+	<entity code="elemental" name="Elemental de Lluvia" element="sea" attack="3" defense="3" img="imagenes//cartas//elemental.jpg" max="2">
+		<description>[pasiva]Tras una trifulca, el brujo atacante debe devolver a su mano 
+			al ser que haya atacado al Elemental</description>
+		<cost sea="3" generic="1"></cost>
+		<action type="finally" name="UpCard"></action>
+	</entity>
+</card>
+<card>
+	<entity code="trucha" name="Hombre-Trucha" element="sea" attack="2" defense="1" img="imagenes//cartas//trucha.jpg" max="3">
+		<description>Aumenta N puntos su defensa donde N es el numero de seres que le defiende que no sean de tipo Mar</description>
+		<cost sea="1" generic="2"></cost>
+		<action type="attack" name="AttackStatsModifier">
+			<element value="sea"></element>
+			<isElementPlus value="False"></isElementPlus>
+			<attack value="0"></attack>
+			<defense value="1"></defense>
+			<canAcu value="True"></canAcu>
+		</action>
+	</entity>
+</card>
+<!-- intervention -->
+<card>
+	<intervention code="salitre" name="Astucia del Salitre" element="sea" img="imagenes//cartas//salitre.jpg" max="3">
+		<description>Todos los seres atacantes de una trifulca reciben un -2/-0</description>
+		<cost sea="1" generic="1"></cost>
+		<action type="active" name="AttackerAllStatsModifiers">
+			<attack value="-2"></attack>
+			<defense value="0"></defense>
+		</action>
+	</intervention>
+</card>
+<card>
+	<intervention code="resaca" name="Resaca Vespertina" element="sea" img="imagenes//cartas//resaca.jpg" max="3">
+		<description>Hace que un ser cambie de bando, yendo bajo el control del otro brujo</description>
+		<cost sea="2" generic="1"></cost>
+		<action type="active" name="ChangeEntity"></action>
+	</intervention>
+</card>
+<card>
+	<intervention code="tsunami" name="Tsunami Tres Delicias" element="sea" img="imagenes//cartas//tsunami.jpg" max="3">
+		<description>Todos los seres del brujo enemigo sufren tanto daño como entornos descargados por el brujo
+		que lanza la intervencion</description>
+		<cost sea="2" generic="1"></cost>
+		<action type="active" name="DamageManaAllEntity"></action>
+	</intervention>
+</card>
+<card>
+	<intervention code="marejadilla" name="Fuerte Marejadilla" element="sea" img="imagenes//cartas//marejadilla.jpg" max="3">
+		<description>Todas los seres de tierra o mar(cualquiera de las dos) del brujo enemigo pasan al control 
+			de quien juegue la inervencion</description>
+		<cost sea="4"></cost>
+		<action type="active" name="ChangeAllEntityElements">
+			<elements earth="true" sea="true"></elements>
+		</action>
+	</intervention>
+</card>
+<!-- AIR -->
+<!-- environments -->
+<card>
+	<enviroment code="nube" name="Nube Borrascosa" element="air" img="imagenes//cartas//nube.jpg" max="0">
+		<description>Permite recolectar 1 cloro de Aire</description>
+		<action type="active" name="addMana">
+			<mana air="1"></mana>
+			<allEquals value="False"></allEquals>
+			<selfElement value="air"></selfElement>
+		</action>
+	</enviroment>
+</card>
+<card>
+	<enviroment code="corriente" name="Corriente de Témpano" element="air" img="imagenes//cartas//corriente.jpg" max="3">
+		<description>Permite recolectar 1 cloro de Aire y 1 cloro generico</description>
+		<action type="active" name="addMana">
+			<mana air="1" generic="1"></mana>
+			<allEquals value="False"></allEquals>
+			<selfElement value="air"></selfElement>
+		</action>
+	</enviroment>
+</card>
+<!-- entity -->
+<card>
+	<entity code="pajaro" name="Pajaro Ebanista" element="air" attack="0" defense="1" img="imagenes//cartas//pajaro.jpg" max="0">
+		<cost></cost>
+	</entity>
+</card>
+<card>
+	<entity code="albatros" name="Albatros Legendario" element="air" attack="2" defense="3" img="imagenes//cartas//albatros.jpg" max="1">
+		<description>Cuando ataca no puede ser defendido con ningun ser de Aire</description>
+		<cost air="1" generic="2"></cost>
+		<action type="passive" name="UnStopElem">
+			<element value="air"></element>
+		</action>
+	</entity>
+</card>
+<card>
+	<entity code="tornado" name="Tornado de Oriente" element="air" attack="4" defense="0" img="imagenes//cartas//tornado.jpg" max="0">
+		<description>Multiplica por 2 su daño cuando daña directamente a un brujo</description>
+		<cost air="2" generic="1"></cost>
+		<action type="passive" name="MultiplyDamage">
+			<attack value="2"></attack>
+			<defense value="1"></defense>
+		</action>
+	</entity>
+</card>
+<card>
+	<entity code="odin" name="Odin el Mismisimo" element="air" attack="6" defense="3" img="imagenes//cartas//odin.jpg" max="1">
+		<description>No se puede jugar intervenciones directamente sobre él.
+			[pasiva]Cuando ataca, las criaturas que se hayan defendido de él y mueran se retiran del juego 
+			y el brujo propietario pierde 1 punto de vida</description>
+		<cost air="4" generic="2"></cost>
+		<action type="passive" name="CantTargetIntervention"></action>
+		<action type="attack" name="DamageWarlockDefenderDie">
+			<damage value="1"></damage>
+		</action>
+	</entity>
+</card>
+<!-- intervention -->
+<card>
+	<intervention code="vientos" name="Vientos de Cambio" element="air" img="imagenes//cartas//vientos.jpg" max="1">
+		<description>Permite elegir uno o varios entornos del oponente 
+			e intercambiarlos por otros tantos entornos tuyos que puedes elegir como quieras</description>
+		<cost air="3"></cost>
+		<action type="active" name="EnviromentExchange"></action>
+	</intervention>
+</card>
+<card>
+	<intervention code="fluir" name="Fluir Gaseoso" element="air" img="imagenes//cartas//fluir.jpg" max="3">
+		<description>Permite que un ser atacante no puede ser defendido en esta trifulca</description>
+		<cost air="1" generic="1"></cost>
+		<action type="active" name="UnStopActive"></action>
+	</intervention>
+</card>
+<card>
+	<intervention code="rayos" name="Rayos y Centellas" element="air" img="imagenes//cartas//rayos.jpg" max="3">
+		<description>Mata el ser objetivo enviandolo al vertedero</description>
+		<cost air="3"></cost>
+		<action type="active" name="Kill"></action>
+	</intervention>
+</card>
+<card>
+	<intervention code="ansia" name="Ansia Viva" element="air" img="imagenes//cartas//ansia.jpg" max="1">
+		<description>Esta carta se lanza con un brujo como objetivo y permanece activa durante toda la partida.
+		Al principio del mantenimiento, cuando el brujo robe cartas, roba hasta tener el máximo de cartas en mano</description>
+		<cost air="1" generic="4"></cost>
+		<action type="active" name="DrawMaxHand"></action>
+	</intervention>
+</card>
+<!-- SPIRIT -->
+<!-- environments -->
+<card>
+	<enviroment code="nave" name="Nave del Misterio" element="spirit" img="imagenes//cartas//nave.jpg" max="0">
+		<description>Permite recolectar 1 cloro de Espiritu</description>
+		<action type="active" name="addMana">
+			<mana spirit="1"></mana>
+			<allEquals value="False"></allEquals>
+			<selfElement value="spirit"></selfElement>
+		</action>
+	</enviroment>
+</card>
+<card>
+	<enviroment code="portal" name="Portal Intra-Mundos" element="spirit" img="imagenes//cartas//portal.jpg" max="1">
+		<description>Permite recolectar 3 cloros de Espiritu</description>
+		<action type="active" name="addMana">
+			<mana spirit="3"></mana>
+			<allEquals value="False"></allEquals>
+			<selfElement value="spirit"></selfElement>
+		</action>
+	</enviroment>
+</card>
+<card>
+	<enviroment code="nodo" name="Nodo necromental" element="spirit" img="imagenes//cartas//nodo.jpg" max="3">
+		<description>Permite recolectar 1 cloro de Espiritu,
+		 además todos tus cloros en tu banco de cloro pasaran a ser de tipo Espiritu</description>
+		<action type="active" name="TransformsAllMana">
+			<mana spirit="1"></mana>
+			<element value="spirit"></element>
+		</action>
+	</enviroment>
+</card>
+<!-- entity -->
+<card>
+	<entity code="espectro" name="Espectro Vampirico" element="spirit" img="imagenes//cartas//espectro.jpg" attack="1" defense="1" max="3">
+		<description>Gana un +1/+0 al enfrentarse a seres de Tierra,
+		 además si es atacante +N/+0 siendo N el numero de seres de tierra que le defienden</description>
+		<cost spirit="1"></cost>
+		<action type="attack" name="AttackStatsModifier">
+			<element value="earth"></element>
+			<isElementPlus value="True"></isElementPlus>
+			<attack value="1"></attack>
+			<defense value="0"></defense>
+			<canAcu value="True"></canAcu>
+		</action>
+		<action type="defense" name="DefenseStatsModifier">
+			<element value="earth"></element>
+			<attack value="1"></attack>
+			<defense value="0"></defense>
+		</action>
+	</entity>
+</card>
+<card>
+	<entity code="aberracion" name="Aberracion Poltergeist" element="spirit" attack="2" defense="2" img="imagenes//cartas//aberracion.jpg" max="3">
+		<description>Si el brujo lo desea, en una trifulca la Aberración
+			puede copiar los valores de ataque, defensa y comportamiento del ser atacante. 
+			Una vez usado, no se puede usar hasta el turno siguiente.
+			 (aparecera el texto a modo informativo pero el uso no estará activo)</description>
+		<cost spirit="1" generic="2"></cost>
+		<action type="active" name="Copy"></action>
+	</entity>
+</card>
+<card>
+	<entity code="angel" name="Angel de la Debacle" element="spirit" attack="6" defense="2" img="imagenes//cartas//angel.jpg" max="2">
+		<description>Gana +0/+1 por cada ser que se defienda de él a partir del primero</description>
+		<cost spirit="3" generic="2"></cost>
+		<action type="attack" name="OverOneStatsModifier">
+			<attack value="0"></attack>
+			<defense value="1"></defense>
+		</action>
+	</entity>
+</card>
+<!-- intervention -->
+<card>
+	<intervention code="euforia" name="Euforia Cleptomana" element="spirit" img="imagenes//cartas//euforia.jpg" max="3">
+		<description>El brujo coge 2 cartas al azar de la mano de su oponente (ó 1 si no hay 2)</description>
+		<cost generic="3"></cost>
+		<action type="active" name="StealHand">
+			<number value="2"></number>
+		</action>
+	</intervention>
+</card>
+<card>
+	<intervention code="psicofonia" name="Psicofonia Zen" element="spirit" img="imagenes//cartas//psicofonia.jpg" max="3">
+		<description>El brujo puede ver todas las cartas de la mano de su oponente</description>
+		<cost spirit="1" generic="1"></cost>
+		<action type="active" name="SeeHand"></action>
+	</intervention>
+</card>
+<card>
+	<intervention code="impugnacion" name="Impugnación Grisacea" element="spirit" img="imagenes//cartas//impugnacion.jpg" max="0">
+		<description>Anula una intervencion jugada pero no resuelta</description>
+		<cost spirit="2"></cost>
+		<action type="active" name="Counter"></action>
+	</intervention>
+</card>
+<card>
+	<intervention code="emulsion" name="Emulsión Telecrata" element="spirit" img="imagenes//cartas//emulsion.jpg" max="3">
+		<description>Todos los seres de la partida hacen una rotacion de la siguiente forma.
+			-Los seres de la zona de juego pasan al vertedero.
+			-Los seres del vertedero al mazo.Los seres del mazo a la mano.
+			-Los seres de la mano pasan al juego sin coste.
+			Odin el mismisimo no se vera afectado por esta carta</description>
+		<cost earth="1" sea="1" air="1" spirit="1"></cost>
+		<action type="active" name="RotateAllEntities"></action>
+	</intervention>
+</card>
+<!-- No ofcial Exp -->
+<card>
+	<enviroment code="caos" name="Caos del Mundo" element="spirit" img="imagenes//cartas//caos.jpg" max="2">
+		<description>Permite recolectar 1 de cada tipo (tiera,aire,mar,espiritu y genérico)</description>
+		<action type="active" name="addMana">
+			<mana earth="1" air="1" sea="1" spirit="1" generic="1"></mana>
+			<allEquals value="False"></allEquals>
+			<selfElement value="spirit"></selfElement>
+		</action>
+	</enviroment>
+</card>
+
+<card>
+	<intervention  code="picon" name="El Picón" element="earth" img="imagenes//cartas//picon.jpg" max="1">
+		<description>Termina el juego inesperadamente</description>
+		<cost earth="1" sea="1" air="1" spirit="1"></cost>
+		<action type="active" name="FinishGame"></action>
+	</intervention>
+</card>
+<card>
+	<intervention code="picaporte" name="Picaporte asesino" element="earth" img="imagenes//cartas//picaporte.jpg" max="1">
+		<description>Hay un 10% de posibilidades de que el brujo enemigo sufra 214748364 puntos de daño</description>
+		<cost earth="8"></cost>
+		<action type="active" name="DamageWarlock">
+			<number value="214748364"></number>
+			<probability value="10"></probability>
+		</action>
+	</intervention>
+</card>
+
+<card>
+	<intervention code="bull" name="Red Bull" element="air" img="imagenes//cartas//bull.jpg" max="3">
+		<description>Multiplica por 2 el ataque de un ser durante una trifulca permanentemente</description>
+		<cost air="3" generic="3"></cost>
+		<action type="active" name="MultiplyStatsModifiers">
+			<attack value="2"></attack>
+			<defense value="2"></defense>
+			<permanent value="True"></permanent>
+			<needCombat value="True"></needCombat>
+		</action>
+	</intervention>
+</card>
+
+<card>
+	<entity code="muro" name="El Muro del Norte" element="sea" attack="0" defense="15" img="imagenes//cartas//muro.png" max="1">
+		<description>Gana +0/+1 por cada ser que se defienda de él a partir del primero</description>
+		<cost sea="4" generic="1"></cost>
+		<action type="passive" name="CantTargetIntervention">
+		</action>
+		<action type="passive" name="NoInitialized">
+		</action>
+	</entity>
+</card>
+
+</game>

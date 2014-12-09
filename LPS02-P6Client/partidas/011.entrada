@@ -1,0 +1,58 @@
+1
+
+prado
+--entornos
+--mano
+--sig
+vientos
+1 prado 1
+portal
+--sig
+salitre
+euforia
+--sig
+--sig
+1 1
+
+
+
+--sig
+--mano
+--entornos
+--atacar angel
+--atacar tornado 1
+--atacar tornado 2
+--sig
+--defender lenguado 1
+angel
+--defender pajaro 2
+angel
+--defender pajaro 1
+angel
+--defender lenguado 2
+tornado 1
+--vercombate
+--sig
+--sig
+--sig
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--juego
+--salir

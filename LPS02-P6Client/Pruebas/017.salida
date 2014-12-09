@@ -1,0 +1,670 @@
+Parametro 'min' no introducido se leera desde el fichero de propiedades
+Parametro 'max' no introducido se leera desde el fichero de propiedades
+Parametro 'mano' no introducido se leera desde el fichero de propiedades
+Parametro 'vidas' no introducido se leera desde el fichero de propiedades
+No has introducido el valor vida en el fichero de propiedades, se cargara por defecto
+El mazo del brujo A se cargo sin fallos
+El mazo del brujo B se cargo sin fallos
+Bienvenido a Brujas & Trifulcas.
+Elige una de las siguientes opciones:
+'1.-Jugar partida 1vs1.
+'2.-Ayuda
+'0.-Salir
+Estas en modo ADMIN
+Turno del Brujo Brujo A
+
+
+
+Pulse Enter para empezar
+---------------Fase pre-trifulca---------------------------------
+
+Introduzca la accion: 
+
+-----------------------------------------------------
+1x---
+
+Coste: 4M 
+Codigo: marejadilla
+Nombre: Fuerte Marejadilla
+Elemento: mar
+Tipo: Intervencion
+Descripcion: Todas los seres de tierra o mar(cualquiera de las dos) del brujo enemigo pasan al control del quien juegue la inervencion
+Coste: 4M 
+-----------------------------------------------------
+1x---
+
+Coste: 3T 
+Codigo: resquemor
+Nombre: Resquemor del Labriego
+Elemento: tierra
+Tipo: Intervencion
+Descripcion: Esta intervencion debe jugarse cuando se hayan asignado defensores.
+Resta 2 puntos de defensa a todos los defensores
+Coste: 3T 
+-----------------------------------------------------
+1x---
+
+Coste: 1T + 2E 
+Codigo: impugnacion
+Nombre: Impugnación Grisacea
+Elemento: espiritu
+Tipo: Intervencion
+Descripcion: Anula una intervencion jugada pero no resuelta.
+Coste: 1T + 2E 
+-----------------------------------------------------
+1x---
+
+Coste: 1E + 2G 
+A: 2  D: 2    Vida: 2  Descargado: No
+Codigo: aberracion
+Nombre: Aberracion Poltergeist
+Elemento: espiritu
+Tipo: Ser
+Descripcion: [uso]Si el brujo lo desea, en una trifulca la Aberración puede copiar los valores de ataque, defensa y comportamiento del ser atacante.
+una vez usado, no se puede usar hasta el turno siguiente.(aparecera el texto a modo informativo pero el uso no estara activo)
+[ayuda]--usar 'aberracion' 'opcional solo si hay mas de una, aclarar cual desea usar' 'objetivo'.
+Coste: 1E + 2G 
+A: 2  D: 2    Vida: 2  Descargado: No
+-----------------------------------------------------
+1x---
+
+Coste: 3A 
+Codigo: vientos
+Nombre: Vientos de Cambio
+Elemento: aire
+Tipo: Intervencion
+Descripcion: Permite elegir uno o varios entornos del oponente e intercambiarlos por otros tantos entornos tuyos que puedes elegir como quieras
+[aclaracion] para usar esta carta simplemente usela (introduzca su codigo) y despues se le pediran los datos
+Coste: 3A 
+-----------------------------------------------------
+1x---
+
+Coste: 1T + 1G 
+Codigo: colleja
+Nombre: Colleja Mnemotecnica
+Elemento: tierra
+Tipo: Intervencion
+Descripcion: El ser objetivo sufre tantos puntos de vida como ataque tiene
+Coste: 1T + 1G 
+-----------------------------------------------------
+1x---
+
+Coste: 2G 
+A: 1  D: 2    Vida: 2  Descargado: No
+Codigo: cucaracha
+Nombre: Cucaracha Indomita
+Elemento: tierra
+Tipo: Ser
+Descripcion: [pasiva]No pueden jugarse intervenciones directamente sobre ella
+Coste: 2G 
+A: 1  D: 2    Vida: 2  Descargado: No
+-----------------------------------------------------
+3x---
+
+Sin coste 
+Descargado: No
+Codigo: nodo
+Nombre: Nodo necromental
+Elemento: espiritu
+Tipo: Entorno
+Descripcion: [uso]Permite recolectar 1 cloro de Espiritu,además todos tus cloros en tu banco de cloro pasaran a ser de tipo Espiritu
+Sin coste 
+Descargado: No
+-----------------------------------------------------
+1x---
+
+Coste: 3A 
+Codigo: rayos
+Nombre: Rayos y Centellas
+Elemento: aire
+Tipo: Intervencion
+Descripcion: Mata el ser objetivo enviandolo al vertedero
+Coste: 3A 
+-----------------------------------------------------
+1x---
+
+Coste: 2M + 1G 
+Codigo: tsunami
+Nombre: Tsunami Tres Delicias
+Elemento: mar
+Tipo: Intervencion
+Descripcion: Todos los seres del brujo enemigo sufren tanto daño como entornos descargados por el brujo que lanza la intervencion
+Coste: 2M + 1G 
+-----------------------------------------------------
+1x---
+
+Coste: 1T + 1M + 1A + 1E 
+Codigo: emulsion
+Nombre: Emulsión Telecrata
+Elemento: espiritu
+Tipo: Intervencion
+Descripcion: Todos los seres de la partida hacen una rotacion de la siguiente forma.
+-Los seres de la zona de juego pasan al vertedero.
+-Los seres del vertedero al mazo.
+Los seres del mazo a la mano.
+-Los seres de la mano pasan al juego sin coste
+Odin el mismisimo no se vera afectado por esta carta
+Coste: 1T + 1M + 1A + 1E 
+-----------------------------------------------------
+1x---
+
+Coste: 1A + 4G 
+Codigo: ansia
+Nombre: Ansia Viva
+Elemento: aire
+Tipo: Intervencion
+Descripcion: Esta carta se lanza con un brujo como objetivo y permanece activa durante toda la partida. Al principio del mantenimiento, cuando el brujo robe cartas, roba hasta tener el maximo de cartas en mano
+Coste: 1A + 4G 
+
+Introduzca la accion: 
+Aun no hay intervenciones en el limbo
+
+Introduzca la accion: 
+-------------Fase trifulca---------------------------------
+¡INTERVENCIONES! del brujo Brujo A(Recuerde que ahora puede jugar intervenciones 'codigo' 'propietario' 'objetivo' (depende de la intervencion))
+
+Introduzca la accion: 
+Intervencion 
+
+Coste: 1A + 4G 
+Codigo: ansia
+Nombre: Ansia Viva
+Elemento: aire
+Tipo: Intervencion
+Descripcion: Esta carta se lanza con un brujo como objetivo y permanece activa durante toda la partida. Al principio del mantenimiento, cuando el brujo robe cartas, roba hasta tener el maximo de cartas en mano
+Coste: 1A + 4G 
+Le toca el turno al brujo Brujo B
+
+Introduzca la accion: 
+Intervencion 
+
+Coste: 1T + 1G 
+Codigo: colleja
+Nombre: Colleja Mnemotecnica
+Elemento: tierra
+Tipo: Intervencion
+Descripcion: El ser objetivo sufre tantos puntos de vida como ataque tiene
+Coste: 1T + 1G 
+ jugada. 
+Le toca el turno al otro brujo
+
+Introduzca la accion: 
+Intervencion 
+
+Coste: 3A 
+Codigo: rayos
+Nombre: Rayos y Centellas
+Elemento: aire
+Tipo: Intervencion
+Descripcion: Mata el ser objetivo enviandolo al vertedero
+Coste: 3A 
+ jugada. 
+Le toca el turno al otro brujo
+
+Introduzca la accion: 
+Intervencion 
+
+Coste: 1T + 1G 
+Codigo: colleja
+Nombre: Colleja Mnemotecnica
+Elemento: tierra
+Tipo: Intervencion
+Descripcion: El ser objetivo sufre tantos puntos de vida como ataque tiene
+Coste: 1T + 1G 
+ jugada. 
+Le toca el turno al otro brujo
+
+Introduzca la accion: 
+
+Coste: 1A + 4G 
+Codigo: ansia
+Nombre: Ansia Viva
+Elemento: aire
+Tipo: Intervencion
+Descripcion: Esta carta se lanza con un brujo como objetivo y permanece activa durante toda la partida. Al principio del mantenimiento, cuando el brujo robe cartas, roba hasta tener el maximo de cartas en mano
+Coste: 1A + 4G 
+----------------------------------
+Coste: 1T + 1G 
+Codigo: colleja
+Nombre: Colleja Mnemotecnica
+Elemento: tierra
+Tipo: Intervencion
+Descripcion: El ser objetivo sufre tantos puntos de vida como ataque tiene
+Coste: 1T + 1G 
+----------------------------------
+Coste: 3A 
+Codigo: rayos
+Nombre: Rayos y Centellas
+Elemento: aire
+Tipo: Intervencion
+Descripcion: Mata el ser objetivo enviandolo al vertedero
+Coste: 3A 
+----------------------------------
+Coste: 1T + 1G 
+Codigo: colleja
+Nombre: Colleja Mnemotecnica
+Elemento: tierra
+Tipo: Intervencion
+Descripcion: El ser objetivo sufre tantos puntos de vida como ataque tiene
+Coste: 1T + 1G 
+----------------------------------
+
+Introduzca la accion: 
+Vida Brujo A : 9999999
+Vida Brujo B: 9999999
+
+Introduzca la accion: 
+Intervencion 
+
+Coste: 1T + 2E 
+Codigo: impugnacion
+Nombre: Impugnación Grisacea
+Elemento: espiritu
+Tipo: Intervencion
+Descripcion: Anula una intervencion jugada pero no resuelta.
+Coste: 1T + 2E 
+ jugada. 
+Le toca el turno al otro brujo
+
+Introduzca la accion: 
+
+Coste: 1A + 4G 
+Codigo: ansia
+Nombre: Ansia Viva
+Elemento: aire
+Tipo: Intervencion
+Descripcion: Esta carta se lanza con un brujo como objetivo y permanece activa durante toda la partida. Al principio del mantenimiento, cuando el brujo robe cartas, roba hasta tener el maximo de cartas en mano
+Coste: 1A + 4G 
+----------------------------------
+Coste: 1T + 1G 
+Codigo: colleja
+Nombre: Colleja Mnemotecnica
+Elemento: tierra
+Tipo: Intervencion
+Descripcion: El ser objetivo sufre tantos puntos de vida como ataque tiene
+Coste: 1T + 1G 
+----------------------------------
+Coste: 3A 
+Codigo: rayos
+Nombre: Rayos y Centellas
+Elemento: aire
+Tipo: Intervencion
+Descripcion: Mata el ser objetivo enviandolo al vertedero
+Coste: 3A 
+----------------------------------
+Coste: 1T + 1G 
+Codigo: colleja
+Nombre: Colleja Mnemotecnica
+Elemento: tierra
+Tipo: Intervencion
+Descripcion: El ser objetivo sufre tantos puntos de vida como ataque tiene
+Coste: 1T + 1G 
+----------------------------------
+Coste: 1T + 2E 
+Codigo: impugnacion
+Nombre: Impugnación Grisacea
+Elemento: espiritu
+Tipo: Intervencion
+Descripcion: Anula una intervencion jugada pero no resuelta.
+Coste: 1T + 2E 
+----------------------------------
+
+Introduzca la accion: 
+Has decidido no jugar intervencion, se pasa el turno al otro brujo Brujo A
+
+Introduzca la accion: 
+Has decidido no jugar intervencion, se pasa el turno al otro brujo Brujo B
+
+Los dos brujos habeis decidido dejar de jugar intervenciones, se resolvera la disputa 
+PREPARADOS
+Se realiza:
+
+Coste: 1T + 2E 
+Codigo: impugnacion
+Nombre: Impugnación Grisacea
+Elemento: espiritu
+Tipo: Intervencion
+Descripcion: Anula una intervencion jugada pero no resuelta.
+Coste: 1T + 2E 
+
+Es super efectivo
+
+Se realiza:
+
+Coste: 1T + 1G 
+Codigo: colleja
+Nombre: Colleja Mnemotecnica
+Elemento: tierra
+Tipo: Intervencion
+Descripcion: El ser objetivo sufre tantos puntos de vida como ataque tiene
+Coste: 1T + 1G 
+
+No es efectivo
+
+Se realiza:
+
+Coste: 3A 
+Codigo: rayos
+Nombre: Rayos y Centellas
+Elemento: aire
+Tipo: Intervencion
+Descripcion: Mata el ser objetivo enviandolo al vertedero
+Coste: 3A 
+
+Ha muerto: 
+
+Coste: 1M + 2G 
+A: 2  D: 1    Vida: 1  Descargado: No
+Codigo: trucha
+Nombre: Hombre-Trucha
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasivo]Aumenta N puntos su defensa donde N es el numero de seres que le defiende que no sean de tipo Mar
+Coste: 1M + 2G 
+A: 2  D: 1    Vida: 1  Descargado: No
+Al parecer habia tormenta
+
+
+Es super efectivo
+
+Se realiza:
+
+Coste: 1A + 4G 
+Codigo: ansia
+Nombre: Ansia Viva
+Elemento: aire
+Tipo: Intervencion
+Descripcion: Esta carta se lanza con un brujo como objetivo y permanece activa durante toda la partida. Al principio del mantenimiento, cuando el brujo robe cartas, roba hasta tener el maximo de cartas en mano
+Coste: 1A + 4G 
+
+Es super efectivo
+
+¡INTERVENCIONES! del brujo Brujo B(Recuerde que ahora puede jugar intervenciones 'codigo' 'propietario' 'objetivo' (depende de la intervencion))
+
+Introduzca la accion: 
+
+Introduzca la accion: 
+
+Introduzca la accion: 
+
+Introduzca la accion: 
+
+-----------------------------------------------------
+
+Coste: 1T 
+A: 1  D: 1    Vida: 1  Descargado: No
+Codigo: felino
+Nombre: Felino Lascivo
+Elemento: tierra
+Tipo: Ser
+Descripcion: 
+Coste: 1T 
+A: 1  D: 1    Vida: 1  Descargado: No
+-----------------------------------------------------
+
+Coste: 2T + 3G 
+A: 3  D: 1    Vida: 1  Descargado: No
+Codigo: alabardero
+Nombre: Alabardero Cimmerio
+Elemento: tierra
+Tipo: Ser
+Descripcion: [pasiva]Cuando ataca gana +N/+N siendo N el numero de seres de espiritu que le defienden
+[pasiva]Si en la fase trifulca, el brujo que lo controla controla tambien la carta 'Caballero Tremebundo' suma +0/+2
+Coste: 2T + 3G 
+A: 3  D: 1    Vida: 1  Descargado: No
+-----------------------------------------------------
+
+Coste: 4A + 2G 
+A: 6  D: 3    Vida: 3  Descargado: No
+Codigo: odin
+Nombre: Odin el Mismisimo
+Elemento: aire
+Tipo: Ser
+Descripcion: [pasiva]No se puede jugar intervenciones directamente sobre el.
+[pasiva]Cuando ataca, las criaturas que se hayan defendido de el se retiran del juego
+y el brujo propietario pierde 1 punto de vida
+Coste: 4A + 2G 
+A: 6  D: 3    Vida: 3  Descargado: No
+-----------------------------------------------------
+
+Coste: 2T + 2G 
+A: 0  D: 5    Vida: 5  Descargado: No
+Codigo: morlaco
+Nombre: Morlaco Vetusto
+Elemento: tierra
+Tipo: Ser
+Descripcion: [pasiva]Cuando se aigna al combate para atacar, los seres enemigos solo pueden defenderle a el(si quieren defender)
+Coste: 2T + 2G 
+A: 0  D: 5    Vida: 5  Descargado: No
+-----------¡¡¡¡¡ENEMIGO!!!!!----------------------------------
+
+-----------------------------------------------------
+
+Coste: 1T 
+A: 1  D: 1    Vida: 1  Descargado: No
+Codigo: felino
+Nombre: Felino Lascivo
+Elemento: tierra
+Tipo: Ser
+Descripcion: 
+Coste: 1T 
+A: 1  D: 1    Vida: 1  Descargado: No
+-----------------------------------------------------
+
+Coste: 2T + 3G 
+A: 3  D: 1    Vida: 1  Descargado: No
+Codigo: alabardero
+Nombre: Alabardero Cimmerio
+Elemento: tierra
+Tipo: Ser
+Descripcion: [pasiva]Cuando ataca gana +N/+N siendo N el numero de seres de espiritu que le defienden
+[pasiva]Si en la fase trifulca, el brujo que lo controla controla tambien la carta 'Caballero Tremebundo' suma +0/+2
+Coste: 2T + 3G 
+A: 3  D: 1    Vida: 1  Descargado: No
+-----------------------------------------------------
+
+Coste: 1M + 2G 
+A: 2  D: 1    Vida: 1  Descargado: No
+Codigo: trucha
+Nombre: Hombre-Trucha
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasivo]Aumenta N puntos su defensa donde N es el numero de seres que le defiende que no sean de tipo Mar
+Coste: 1M + 2G 
+A: 2  D: 1    Vida: 1  Descargado: No
+-----------------------------------------------------
+
+Coste: 4A + 2G 
+A: 6  D: 3    Vida: 3  Descargado: No
+Codigo: odin
+Nombre: Odin el Mismisimo
+Elemento: aire
+Tipo: Ser
+Descripcion: [pasiva]No se puede jugar intervenciones directamente sobre el.
+[pasiva]Cuando ataca, las criaturas que se hayan defendido de el se retiran del juego
+y el brujo propietario pierde 1 punto de vida
+Coste: 4A + 2G 
+A: 6  D: 3    Vida: 3  Descargado: No
+-----------------------------------------------------
+
+Coste: 2T + 2G 
+A: 0  D: 5    Vida: 5  Descargado: No
+Codigo: morlaco
+Nombre: Morlaco Vetusto
+Elemento: tierra
+Tipo: Ser
+Descripcion: [pasiva]Cuando se aigna al combate para atacar, los seres enemigos solo pueden defenderle a el(si quieren defender)
+Coste: 2T + 2G 
+A: 0  D: 5    Vida: 5  Descargado: No
+
+Introduzca la accion: 
+Vida Brujo A : 10000000
+Vida Brujo B: 9999999
+
+Introduzca la accion: 
+¡ATAQUE!Es momento de que asigne atacantes si lo considera oportuno
+
+Introduzca la accion: 
+El brujo Brujo A ha perdido 50 puntos de vida por quemadura de cloro
+Tienes mas cartas de las permitidas, debes descartarte de 5 cartas
+
+Introduzca la accion: 
+Esa carta no esta en la mano
+Te quedan por descartar 5
+
+Introduzca la accion: 
+Esa carta no esta en la mano
+Te quedan por descartar 5
+
+Introduzca la accion: 
+Carta descartada
+Te quedan por descartar 4
+
+Introduzca la accion: 
+Carta descartada
+Te quedan por descartar 3
+
+Introduzca la accion: 
+Carta descartada
+Te quedan por descartar 2
+
+Introduzca la accion: 
+Esa carta no esta en la mano
+Te quedan por descartar 2
+
+Introduzca la accion: 
+Esa carta no esta en la mano
+Te quedan por descartar 2
+
+Introduzca la accion: 
+Carta descartada
+Te quedan por descartar 1
+
+Introduzca la accion: 
+Carta descartada
+Te quedan por descartar 0
+Fin del turno del brujo Brujo A
+Turno del Brujo Brujo B
+
+
+
+Pulse Enter para empezar
+---------------Fase pre-trifulca---------------------------------
+
+Introduzca la accion: 
+Carta no existente, inserte otra
+
+Introduzca la accion: 
+Carta no existente, inserte otra
+
+Introduzca la accion: 
+
+-----------------------------------------------------
+
+Coste: 1T 
+A: 1  D: 1    Vida: 1  Descargado: No
+Codigo: felino
+Nombre: Felino Lascivo
+Elemento: tierra
+Tipo: Ser
+Descripcion: 
+Coste: 1T 
+A: 1  D: 1    Vida: 1  Descargado: No
+-----------------------------------------------------
+
+Coste: 2T + 3G 
+A: 3  D: 1    Vida: 1  Descargado: No
+Codigo: alabardero
+Nombre: Alabardero Cimmerio
+Elemento: tierra
+Tipo: Ser
+Descripcion: [pasiva]Cuando ataca gana +N/+N siendo N el numero de seres de espiritu que le defienden
+[pasiva]Si en la fase trifulca, el brujo que lo controla controla tambien la carta 'Caballero Tremebundo' suma +0/+2
+Coste: 2T + 3G 
+A: 3  D: 1    Vida: 1  Descargado: No
+-----------------------------------------------------
+
+Coste: 4A + 2G 
+A: 6  D: 3    Vida: 3  Descargado: No
+Codigo: odin
+Nombre: Odin el Mismisimo
+Elemento: aire
+Tipo: Ser
+Descripcion: [pasiva]No se puede jugar intervenciones directamente sobre el.
+[pasiva]Cuando ataca, las criaturas que se hayan defendido de el se retiran del juego
+y el brujo propietario pierde 1 punto de vida
+Coste: 4A + 2G 
+A: 6  D: 3    Vida: 3  Descargado: No
+-----------------------------------------------------
+
+Coste: 2T + 2G 
+A: 0  D: 5    Vida: 5  Descargado: No
+Codigo: morlaco
+Nombre: Morlaco Vetusto
+Elemento: tierra
+Tipo: Ser
+Descripcion: [pasiva]Cuando se aigna al combate para atacar, los seres enemigos solo pueden defenderle a el(si quieren defender)
+Coste: 2T + 2G 
+A: 0  D: 5    Vida: 5  Descargado: No
+-----------¡¡¡¡¡ENEMIGO!!!!!----------------------------------
+
+-----------------------------------------------------
+
+Coste: 1T 
+A: 1  D: 1    Vida: 1  Descargado: No
+Codigo: felino
+Nombre: Felino Lascivo
+Elemento: tierra
+Tipo: Ser
+Descripcion: 
+Coste: 1T 
+A: 1  D: 1    Vida: 1  Descargado: No
+-----------------------------------------------------
+
+Coste: 2T + 3G 
+A: 3  D: 1    Vida: 1  Descargado: No
+Codigo: alabardero
+Nombre: Alabardero Cimmerio
+Elemento: tierra
+Tipo: Ser
+Descripcion: [pasiva]Cuando ataca gana +N/+N siendo N el numero de seres de espiritu que le defienden
+[pasiva]Si en la fase trifulca, el brujo que lo controla controla tambien la carta 'Caballero Tremebundo' suma +0/+2
+Coste: 2T + 3G 
+A: 3  D: 1    Vida: 1  Descargado: No
+-----------------------------------------------------
+
+Coste: 1M + 2G 
+A: 2  D: 1    Vida: 1  Descargado: No
+Codigo: trucha
+Nombre: Hombre-Trucha
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasivo]Aumenta N puntos su defensa donde N es el numero de seres que le defiende que no sean de tipo Mar
+Coste: 1M + 2G 
+A: 2  D: 1    Vida: 1  Descargado: No
+-----------------------------------------------------
+
+Coste: 4A + 2G 
+A: 6  D: 3    Vida: 3  Descargado: No
+Codigo: odin
+Nombre: Odin el Mismisimo
+Elemento: aire
+Tipo: Ser
+Descripcion: [pasiva]No se puede jugar intervenciones directamente sobre el.
+[pasiva]Cuando ataca, las criaturas que se hayan defendido de el se retiran del juego
+y el brujo propietario pierde 1 punto de vida
+Coste: 4A + 2G 
+A: 6  D: 3    Vida: 3  Descargado: No
+-----------------------------------------------------
+
+Coste: 2T + 2G 
+A: 0  D: 5    Vida: 5  Descargado: No
+Codigo: morlaco
+Nombre: Morlaco Vetusto
+Elemento: tierra
+Tipo: Ser
+Descripcion: [pasiva]Cuando se aigna al combate para atacar, los seres enemigos solo pueden defenderle a el(si quieren defender)
+Coste: 2T + 2G 
+A: 0  D: 5    Vida: 5  Descargado: No
+
+Introduzca la accion: 

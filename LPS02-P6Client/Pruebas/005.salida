@@ -1,0 +1,75 @@
+Parametro 'min' no introducido se leera desde el fichero de propiedades
+Parametro 'max' no introducido se leera desde el fichero de propiedades
+Parametro 'mano' no introducido se leera desde el fichero de propiedades
+Parametro 'vidas' no introducido se leera desde el fichero de propiedades
+No has introducido el valor vida en el fichero de propiedades, se cargara por defecto
+El mazo del brujo A se cargo sin fallos
+El mazo del brujo B se cargo sin fallos
+Bienvenido a Brujas & Trifulcas.
+Elige una de las siguientes opciones:
+'1.-Jugar partida 1vs1.
+'2.-Ayuda
+'0.-Salir
+Turno del Brujo Brujo A
+
+
+
+Pulse Enter para empezar
+---------------Fase pre-trifulca---------------------------------
+
+Introduzca la accion: 
+
+-----------------------------------------------------
+3x---
+
+Sin coste 
+Descargado: No
+Codigo: prado
+Nombre: Prado Infantil
+Elemento: tierra
+Tipo: Entorno
+Descripcion: [uso]Permite recolectar 1 cloro de Tierra y 1 cloro generico
+Sin coste 
+Descargado: No
+-----------------------------------------------------
+2x---
+
+Coste: 2G 
+A: 1  D: 2    Vida: 2  Descargado: No
+Codigo: cucaracha
+Nombre: Cucaracha Indomita
+Elemento: tierra
+Tipo: Ser
+Descripcion: [pasiva]No pueden jugarse intervenciones directamente sobre ella
+Coste: 2G 
+A: 1  D: 2    Vida: 2  Descargado: No
+
+Introduzca la accion: 
+
+Introduzca la accion: 
+
+Introduzca la accion: 
+1T + 1G 
+
+Introduzca la accion: 
+
+Introduzca la accion: 
+No tienes suficiente cloro para jugar esa carta
+
+Introduzca la accion: 
+
+-----------------------------------------------------
+
+Coste: 2G 
+A: 1  D: 2    Vida: 2  Descargado: No
+Codigo: cucaracha
+Nombre: Cucaracha Indomita
+Elemento: tierra
+Tipo: Ser
+Descripcion: [pasiva]No pueden jugarse intervenciones directamente sobre ella
+Coste: 2G 
+A: 1  D: 2    Vida: 2  Descargado: No
+-----------¡¡¡¡¡ENEMIGO!!!!!----------------------------------
+No tienes cartas
+
+Introduzca la accion: 

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT game (card*)>
+<!ATTLIST game 
+	title CDATA #REQUIRED 
+	author CDATA #REQUIRED 
+	version CDATA #REQUIRED 
+>
+<!ELEMENT card (entity | enviroment | intervention)>
+<!ELEMENT entity (description?, cost?,action*)>
+<!ELEMENT intervention (description?, cost?,action*)>
+<!ELEMENT enviroment (description?, cost?,action*)>
+<!ATTLIST entity 
+	name CDATA #REQUIRED  
+	code CDATA #REQUIRED  
+	element (earth | air | sea | spirit | generic) #REQUIRED  
+	attack CDATA #REQUIRED  
+	defense CDATA #REQUIRED 
+	img CDATA #REQUIRED 
+	max CDATA #REQUIRED>
+<!ATTLIST enviroment 
+	name CDATA #REQUIRED  
+	code CDATA #REQUIRED  
+	element (earth | air | sea | spirit | generic) #REQUIRED  
+	img CDATA #REQUIRED 
+	max CDATA #REQUIRED>
+<!ATTLIST intervention 
+	name CDATA #REQUIRED  
+	code CDATA #REQUIRED  
+	element (earth | air | sea | spirit | generic) #REQUIRED  
+	img CDATA #REQUIRED 
+	max CDATA #REQUIRED>
+
+<!ELEMENT  description (#PCDATA)>
+
+<!ELEMENT  cost EMPTY>
+<!ATTLIST cost 
+	earth CDATA #IMPLIED 
+	air CDATA #IMPLIED 
+	sea CDATA #IMPLIED 
+	spirit CDATA #IMPLIED 
+	generic CDATA #IMPLIED>
+<!ELEMENT  action (mana?,allEquals?,selfElement?,element?,isElementPlus?,attack?,defense?,canAcu?,code?,damage?,number?,probability?,permanent?,needCombat?,elements?)>
+
+<!ELEMENT  mana EMPTY>
+<!ATTLIST mana 
+	earth CDATA #IMPLIED 
+	air CDATA #IMPLIED 
+	sea CDATA #IMPLIED 
+	spirit CDATA #IMPLIED 
+	generic CDATA #IMPLIED>
+
+<!ATTLIST action 
+	type (active|finally|attack|defense|passive) #REQUIRED 
+	name CDATA #REQUIRED>
+
+<!ELEMENT allEquals EMPTY>
+<!ATTLIST allEquals 
+	value (True | False) #REQUIRED>
+
+<!ELEMENT selfElement EMPTY>
+<!ATTLIST selfElement 
+	value (earth | air | spirit | sea | generic) #REQUIRED>
+
+<!ELEMENT element EMPTY>
+<!ATTLIST element 
+	value (earth | air | sea | spirit | generic) #REQUIRED  >
+
+<!ELEMENT elements EMPTY>
+<!ATTLIST elements 
+	earth (true | False) #IMPLIED  air (true | False) #IMPLIED  sea (true | False) #IMPLIED  spirit (true | False) #IMPLIED  generic (true | False) #IMPLIED >
+
+<!ELEMENT isElementPlus EMPTY>
+<!ATTLIST isElementPlus 
+	value (True | False) #REQUIRED>
+
+<!ELEMENT attack EMPTY>
+<!ATTLIST attack 
+	value CDATA #REQUIRED>
+
+<!ELEMENT defense EMPTY>
+<!ATTLIST defense 
+	value CDATA #REQUIRED>
+
+<!ELEMENT canAcu  EMPTY>
+<!ATTLIST canAcu 
+	value (True | False) #REQUIRED>
+
+<!ELEMENT code EMPTY>
+<!ATTLIST code 
+	value CDATA #REQUIRED>
+
+<!ELEMENT damage EMPTY>
+<!ATTLIST damage 
+	value CDATA #REQUIRED>
+
+<!ELEMENT number EMPTY>
+<!ATTLIST number 
+	value CDATA #REQUIRED>
+
+<!ELEMENT probability EMPTY>
+<!ATTLIST probability 
+	value CDATA #REQUIRED>
+
+<!ELEMENT permanent EMPTY>
+<!ATTLIST permanent 
+	value CDATA #REQUIRED>
+
+<!ELEMENT needCombat EMPTY>
+<!ATTLIST needCombat 
+	value CDATA #REQUIRED>

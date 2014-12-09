@@ -1,0 +1,27 @@
+java -jar brujos.jar -a BrujoABasico.brujo -b BrujoBBasico.brujo -d -e 004.entrada -s 004.salida
+java -jar brujos.jar -a BrujoABasico.brujo -b BrujoBBasico.brujo -d -e 005.entrada -s 005.salida
+java -jar brujos.jar -a BrujoABasico.brujo -b BrujoBBasico.brujo -d -e 006.entrada -s 006.salida
+java -jar brujos.jar -a BrujoABasico.brujo -b BrujoBBasico.brujo -d -e 007.entrada -s 007.salida
+java -jar brujos.jar -a BrujoABasico.brujo -b BrujoBBasico.brujo -d -e 008.entrada -s 008.salida
+java -jar brujos.jar -a BrujoAAdmin1.brujo -b BrujoBAdmin1.brujo -d -e 009.entrada -s 009.salida
+java -jar brujos.jar -a BrujoAAdmin2.brujo -b BrujoBAdmin2.brujo -d -e 010.entrada -s 010.salida
+java -jar brujos.jar -a BrujoAAdmin3.brujo -b BrujoBAdmin3.brujo -d -e 011.entrada -s 011.salida
+java -jar brujos.jar -a BrujoAAdmin3.brujo -b BrujoBAdmin3.brujo -d -e 012.entrada -s 012.salida
+java -jar brujos.jar -a BrujoAAdminExp.brujo -b BrujoBAdminExp.brujo -d -e 013.entrada -s 013.salida
+java -jar brujos.jar -a BrujoAAdminExp.brujo -b BrujoBAdminExp.brujo -d -e 014.entrada -s 014.salida
+java -jar brujos.jar -a BrujoAAdminExp.brujo -b BrujoBAdminExp.brujo -d -e 015.entrada -s 015.salida
+java -jar brujos.jar -a BrujoAAdminExp.brujo -b BrujoBAdminExp.brujo -d -e 016.entrada -s 016.salida
+java -jar brujos.jar -a BrujoAAdminExp.brujo -b BrujoBAdminExp.brujo -d -e 017.entrada -s 017.salida
+java -jar brujos.jar -a BrujoAAdminExp.brujo -b BrujoBAdminExp.brujo -d -e 018.entrada -s 018.salida
+java -jar brujos.jar -a BrujoAAdminExp.brujo -b BrujoBAdminExp.brujo -d -e 019.entrada -s 019.salida
+java -jar brujos.jar -a BrujoAAdminExp.brujo -b BrujoBAdminExp.brujo -d -e 020.entrada -s 020.salida
+java -jar brujos.jar -a BrujoAAdminExp.brujo -b BrujoBAdminExp.brujo -d -e 021.entrada -s 021.salida
+java -jar brujos.jar -a BrujoAAdminExp.brujo -b BrujoBAdminExp.brujo -d -e 022.entrada -s 022.salida
+java -jar brujos.jar -a BrujoAAdminExp.brujo -b BrujoBAdminExp.brujo -d -e 023.entrada -s 023.salida
+java -jar brujos.jar -a BrujoAAdminExp.brujo -b BrujoBAdminExp.brujo -d -e 024.entrada -s 024.salida
+java -jar brujos.jar -a BrujoAAdminExp.brujo -b BrujoBAdminExp.brujo -d -e 025.entrada -s 025.salida
+java -jar brujos.jar -a BrujoAAdminExpMar.brujo -b BrujoAAdminExpMar.brujo -d -e 026.entrada -s 026.salida
+java -jar brujos.jar -a BrujoAAdminCombat.brujo -b BrujoBAdminCombat.brujo -d -e 027.entrada -s 027.salida
+java -jar brujos.jar -a BrujoAAdminCombat2.brujo -b BrujoBAdminCombat2.brujo -d -e 028.entrada -s 028.salida
+java -jar brujos.jar -a BrujoAAdminAberracion.brujo -b BrujoBAdminAberracion.brujo -d -e 029.entrada -s 029.salida
+

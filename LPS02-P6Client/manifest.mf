@@ -1,0 +1,3 @@
+Manifest-Version: 6.0
+Main-Class: es.ucm.fdi.lps.p6.controller.Main
+

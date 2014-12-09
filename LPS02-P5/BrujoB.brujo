@@ -1,0 +1,11 @@
+BRUJOS&TRIFULCAS 2
+
+# Este es mi mazo de la muerte con el que vejar a los novatos
+@nombre Brujo B
+@frase ¡Cae ante el poder de dios!
+
+prado 3
+# Si no se indica cantidad, se asume un 1
+cucaracha 3
+furia 3
+

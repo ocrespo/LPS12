@@ -1,0 +1,201 @@
+Parametro 'min' no introducido se leera desde el fichero de propiedades
+Parametro 'max' no introducido se leera desde el fichero de propiedades
+Parametro 'mano' no introducido se leera desde el fichero de propiedades
+Parametro 'vidas' no introducido se leera desde el fichero de propiedades
+No has introducido el valor vida en el fichero de propiedades, se cargara por defecto
+El mazo del brujo A se cargo sin fallos
+El mazo del brujo B se cargo sin fallos
+Bienvenido a Brujas & Trifulcas.
+Elige una de las siguientes opciones:
+'1.-Jugar partida 1vs1.
+'2.-Ayuda
+'0.-Salir
+Estas en modo ADMIN
+Turno del Brujo Brujo A
+
+
+
+Pulse Enter para empezar
+---------------Fase pre-trifulca---------------------------------
+
+Introduzca la accion: 
+-------------Fase trifulca---------------------------------
+¡INTERVENCIONES! del brujo Brujo A(Recuerde que ahora puede jugar intervenciones 'codigo' 'propietario' 'objetivo' (depende de la intervencion))
+
+Introduzca la accion: 
+¡INTERVENCIONES! del brujo Brujo B(Recuerde que ahora puede jugar intervenciones 'codigo' 'propietario' 'objetivo' (depende de la intervencion))
+
+Introduzca la accion: 
+¡ATAQUE!Es momento de que asigne atacantes si lo considera oportuno
+
+Introduzca la accion: 
+Al ataque mis valientes, ¡LOK'TAR OGAR!
+
+Introduzca la accion: 
+¡DEFIENDASE! asigne defensores  como guste
+
+Introduzca la accion: 
+Introduzca la carta que quiere defender ,y en caso de haber mas de una, el numero que sera su posicion partiendo del 1 segun se muestra por pantalla
+
+Introduzca la accion: 
+A la defensa, ¡Gloria o muerte!
+
+Introduzca la accion: 
+Ese ser ya esta defendiendo
+
+Introduzca la accion: 
+Opcion no valida, recuerde '--defender codigo' 
+
+Introduzca la accion: 
+Introduzca la carta que quiere defender ,y en caso de haber mas de una, el numero que sera su posicion partiendo del 1 segun se muestra por pantalla
+
+Introduzca la accion: 
+Esa carta no puede ser defendida.
+
+Introduzca la accion: 
+
+--Combate----------------
+-------ATACA------------
+
+Coste: 1A + 2G 
+A: 2  D: 3    Vida: 3  Descargado: Si
+Codigo: albatros
+Nombre: Albatros Legendario
+Elemento: aire
+Tipo: Ser
+Descripcion: [pasiva]Cuando ataca no puede ser defendido con ningun ser de Aire
+Coste: 1A + 2G 
+A: 2  D: 3    Vida: 3  Descargado: Si
+--------VS------------
+------DEFIENDE------------
+
+--------------------------
+
+Coste: 2M + 2G 
+A: 1  D: 3    Vida: 3  Descargado: No
+Codigo: ballena
+Nombre: Ballena Monje
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasiva]Pierde un -0/-2 al defenderse de seres de clase Aire
+Coste: 2M + 2G 
+A: 1  D: 3    Vida: 3  Descargado: No
+
+Introduzca la accion: 
+¡INTERVENCIONES! del brujo Brujo A(Recuerde que ahora puede jugar intervenciones 'codigo' 'propietario' 'objetivo' (depende de la intervencion))
+
+Introduzca la accion: 
+¡INTERVENCIONES! del brujo Brujo B(Recuerde que ahora puede jugar intervenciones 'codigo' 'propietario' 'objetivo' (depende de la intervencion))
+
+Introduzca la accion: 
+¡¡¡Se va a resolver el combate¡¡¡¡
+-------ATACA------------
+
+Coste: 1A + 2G 
+A: 2  D: 3    Vida: 3  Descargado: Si
+Codigo: albatros
+Nombre: Albatros Legendario
+Elemento: aire
+Tipo: Ser
+Descripcion: [pasiva]Cuando ataca no puede ser defendido con ningun ser de Aire
+Coste: 1A + 2G 
+A: 2  D: 3    Vida: 3  Descargado: Si
+--------VS------------
+------DEFIENDE------------
+
+--------------------------
+
+Coste: 2M + 2G 
+A: 1  D: 3    Vida: 3  Descargado: No
+Codigo: ballena
+Nombre: Ballena Monje
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasiva]Pierde un -0/-2 al defenderse de seres de clase Aire
+Coste: 2M + 2G 
+A: 1  D: 3    Vida: 3  Descargado: No
+
+
+El ser
+
+Coste: 1A + 2G 
+A: 2  D: 3    Vida: 2  Descargado: Si
+Codigo: albatros
+Nombre: Albatros Legendario
+Elemento: aire
+Tipo: Ser
+Descripcion: [pasiva]Cuando ataca no puede ser defendido con ningun ser de Aire
+Coste: 1A + 2G 
+A: 2  D: 3    Vida: 2  Descargado: Si
+ha sufrido 1 puntos de daño
+
+Pulse enter para seguir
+
+
+El ser
+
+Coste: 2M + 2G 
+A: 1  D: 3    Vida: 1  Descargado: No
+Codigo: ballena
+Nombre: Ballena Monje
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasiva]Pierde un -0/-2 al defenderse de seres de clase Aire
+Coste: 2M + 2G 
+A: 1  D: 3    Vida: 1  Descargado: No
+ha sufrido 2 puntos de daño
+
+Pulse enter para seguir
+
+
+
+----¡FIN DE LA RESOLUCION DEL COMBATE!----------
+
+El brujo Brujo A ha perdido 50 puntos de vida por quemadura de cloro
+Fin del turno del brujo Brujo A
+Turno del Brujo Brujo B
+
+
+
+Pulse Enter para empezar
+---------------Fase pre-trifulca---------------------------------
+
+Introduzca la accion: 
+
+-----------------------------------------------------
+
+Coste: 2M + 2G 
+A: 1  D: 5    Vida: 5  Descargado: No
+Codigo: ballena
+Nombre: Ballena Monje
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasiva]Pierde un -0/-2 al defenderse de seres de clase Aire
+Coste: 2M + 2G 
+A: 1  D: 5    Vida: 5  Descargado: No
+-----------------------------------------------------
+
+Coste: 
+A: 0  D: 1    Vida: 1  Descargado: No
+Codigo: pajaro
+Nombre: Pajaro Ebanista
+Elemento: aire
+Tipo: Ser
+Descripcion: 
+Coste: 
+A: 0  D: 1    Vida: 1  Descargado: No
+-----------¡¡¡¡¡ENEMIGO!!!!!----------------------------------
+
+-----------------------------------------------------
+
+Coste: 1A + 2G 
+A: 2  D: 3    Vida: 3  Descargado: Si
+Codigo: albatros
+Nombre: Albatros Legendario
+Elemento: aire
+Tipo: Ser
+Descripcion: [pasiva]Cuando ataca no puede ser defendido con ningun ser de Aire
+Coste: 1A + 2G 
+A: 2  D: 3    Vida: 3  Descargado: Si
+
+Introduzca la accion: 

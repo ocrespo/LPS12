@@ -1,0 +1,14 @@
+BRUJOS&TRIFULCAS 2
+
+# Este es mi mazo de la muerte con el que vejar a los novatos
+@nombre Brujo A
+@frase ¡Cae ante el poder de dios!
+
+nave
+portal
+espectro
+cucaracha
+prado
+cucaracha
+# Si no se indica cantidad, se asume un 1
+furia 3

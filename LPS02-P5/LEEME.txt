@@ -1,0 +1,9 @@
+La aplicacion se lanza clicando doble click sobre "Brujos.bat" o desde consola con "java -jar brujos.jar".
+Si necesita ayuda para los parametros de entrada añada "java -jar brujos.jar -?"
+Si le da error, porfavor inicialice el entorno de consola en java SE 1.7 32 bits
+
+En el directorio "Pruebas" estan los ficheros de prueba tanto de ficheros de brujo
+como los ficheros de entrada. Y para poder diferenciarlo, estan repetidos y organizados en sus respectivas expansiones.
+Dentro también estan los ficheros *.brujo necesarios y otro *.jar y "pruebas.bat"
+
+El Archivo "¡¡IMPORTANTE!-Tutorial", tiene un tutorial sobre el manejo de la aplicación.

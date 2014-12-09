@@ -1,0 +1,22 @@
+BRUJOS&TRIFULCAS 2
+
+# Este es mi mazo de la muerte con el que vejar a los novatos
+@nombre Brujo A
+@frase Mi autentico Dios es Óscar
+nave 1
+portal 10
+espectro 3
+aberracion 3
+angel 2
+euforia
+psicofonia
+impugnacion 3
+emulsion
+alma 2
+nada 3
+caos 2
+
+
+# Si no se indica cantidad, se asume un 1
+#
+#impugnacion 3

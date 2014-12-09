@@ -1,0 +1,33 @@
+BRUJOS&TRIFULCAS 3
+
+# Este es mi mazo de la muerte con el que vejar a los novatos
+@nombre Brujo A
+@frase ¡Cae ante el poder de dios!
+nodo 3
+aberracion
+cucaracha
+isla 1
+# Si no se indica cantidad, se asume un 1
+furia 3
+ballena
+@admin
+alabardero
+felino
+trucha
+morlaco
+odin
+caballero
+espectro
+ballena
+aberracion
+tornado
+albatros
+
+@entorno nodo
+@entorno isla
+@entorno erial
+
+@entorno peninsula
+@entorno portal
+@entorno prado
+

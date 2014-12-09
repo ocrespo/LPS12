@@ -1,0 +1,19 @@
+BRUJOS&TRIFULCAS 2
+
+# Este es mi mazo de la muerte con el que vejar a los novatos
+@nombre Brujo B
+@frase on fire
+
+nave 7
+portal 1
+psicofonia 1
+
+@admin
+@mano euforia
+@mano raices
+@mano raices
+lenguado 2
+pajaro 2
+ballena
+elemental
+@entorno portal

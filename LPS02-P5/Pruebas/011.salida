@@ -1,0 +1,745 @@
+Parametro 'min' no introducido se leera desde el fichero de propiedades
+Parametro 'max' no introducido se leera desde el fichero de propiedades
+Parametro 'mano' no introducido se leera desde el fichero de propiedades
+Parametro 'vidas' no introducido se leera desde el fichero de propiedades
+No has introducido el valor vida en el fichero de propiedades, se cargara por defecto
+El mazo del brujo A se cargo sin fallos
+El mazo del brujo B se cargo sin fallos
+Bienvenido a Brujas & Trifulcas.
+Elige una de las siguientes opciones:
+'1.-Jugar partida 1vs1.
+'2.-Ayuda
+'0.-Salir
+Estas en modo ADMIN
+Turno del Brujo  Brujo A
+
+
+
+Pulse Enter para empezar
+---------------Fase pre-trifulca---------------------------------
+
+Introduzca la accion: 
+
+Introduzca la accion: 
+
+-----------------------------------------------------
+
+-----
+1-->
+Sin coste 
+Descargado: No
+Codigo: prado
+Nombre: Prado Infantil
+Elemento: tierra
+Tipo: Entorno
+Descripcion: [uso]Permite recolectar 1 cloro de Tierra y 1 cloro generico
+Sin coste 
+Descargado: No
+-----
+2-->
+Sin coste 
+Descargado: No
+Codigo: prado
+Nombre: Prado Infantil
+Elemento: tierra
+Tipo: Entorno
+Descripcion: [uso]Permite recolectar 1 cloro de Tierra y 1 cloro generico
+Sin coste 
+Descargado: No
+-----------¡¡¡¡¡ENEMIGO!!!!!----------------------------------
+
+-----------------------------------------------------
+
+Sin coste 
+Descargado: No
+Codigo: portal
+Nombre: Portal Intra-Mundos
+Elemento: espiritu
+Tipo: Entorno
+Descripcion: [uso]Permite recolectar 3 cloros de Espiritu
+Sin coste 
+Descargado: No
+
+Introduzca la accion: 
+
+-----------------------------------------------------
+2x---
+
+Sin coste 
+Descargado: No
+Codigo: prado
+Nombre: Prado Infantil
+Elemento: tierra
+Tipo: Entorno
+Descripcion: [uso]Permite recolectar 1 cloro de Tierra y 1 cloro generico
+Sin coste 
+Descargado: No
+-----------------------------------------------------
+1x---
+
+Coste: 3A 
+Codigo: vientos
+Nombre: Vientos de Cambio
+Elemento: aire
+Tipo: Intervencion
+Descripcion: Permite elegir uno o varios entornos del oponente e intercambiarlos por otros tantos entornos tuyos que puedes elegir como quieras
+[aclaracion] para usar esta carta simplemente usela (introduzca su codigo) y despues se le pediran los datos
+Coste: 3A 
+-----------------------------------------------------
+2x---
+
+Coste: 2G 
+A: 1  D: 2    Vida: 2  Descargado: No
+Codigo: cucaracha
+Nombre: Cucaracha Indomita
+Elemento: tierra
+Tipo: Ser
+Descripcion: [pasiva]No pueden jugarse intervenciones directamente sobre ella
+Coste: 2G 
+A: 1  D: 2    Vida: 2  Descargado: No
+-----------------------------------------------------
+1x---
+
+Coste: 1M + 1G 
+Codigo: salitre
+Nombre: Astucia del Salitre
+Elemento: mar
+Tipo: Intervencion
+Descripcion: Todos los seres atacantes de una trifulca reciben un -2/-0
+Coste: 1M + 1G 
+
+Introduzca la accion: 
+-------------Fase trifulca---------------------------------
+¡INTERVENCIONES! del brujo  Brujo A(Recuerde que ahora puede jugar intervenciones 'codigo' 'propietario' 'objetivo' (depende de la intervencion))
+
+Introduzca la accion: 
+Señale cuantos entornos quieres intercambiar y, acontinuacion, cuales
+(Recuerde 'num' 'codigo' si hay mas de uno igual indique un numero con su posicion segun se muestra)
+Señale ahora las de su enemigo
+Intervencion 
+
+Coste: 3A 
+Codigo: vientos
+Nombre: Vientos de Cambio
+Elemento: aire
+Tipo: Intervencion
+Descripcion: Permite elegir uno o varios entornos del oponente e intercambiarlos por otros tantos entornos tuyos que puedes elegir como quieras
+[aclaracion] para usar esta carta simplemente usela (introduzca su codigo) y despues se le pediran los datos
+Coste: 3A 
+Le toca el turno al brujo Brujo B
+
+Introduzca la accion: 
+Has decidido no jugar intervencion, se pasa el turno al otro brujo  Brujo A
+
+Introduzca la accion: 
+Deben estar asignados los atacantes para jugar esa accion
+
+Introduzca la accion: 
+Carta no existente, inserte otra
+
+Introduzca la accion: 
+Has decidido no jugar intervencion, se pasa el turno al otro brujo Brujo B
+
+Los dos brujos habeis decidido dejar de jugar intervenciones, se resolvera la disputa 
+PREPARADOS
+Se realiza:
+
+Coste: 3A 
+Codigo: vientos
+Nombre: Vientos de Cambio
+Elemento: aire
+Tipo: Intervencion
+Descripcion: Permite elegir uno o varios entornos del oponente e intercambiarlos por otros tantos entornos tuyos que puedes elegir como quieras
+[aclaracion] para usar esta carta simplemente usela (introduzca su codigo) y despues se le pediran los datos
+Coste: 3A 
+
+Es super efectivo
+
+¡INTERVENCIONES! del brujo Brujo B(Recuerde que ahora puede jugar intervenciones 'codigo' 'propietario' 'objetivo' (depende de la intervencion))
+
+Introduzca la accion: 
+Carta no existente, inserte otra
+
+Introduzca la accion: 
+
+Introduzca la accion: 
+
+Introduzca la accion: 
+
+Introduzca la accion: 
+¡ATAQUE!Es momento de que asigne atacantes si lo considera oportuno
+
+Introduzca la accion: 
+
+-----------------------------------------------------
+2x---
+
+Sin coste 
+Descargado: No
+Codigo: prado
+Nombre: Prado Infantil
+Elemento: tierra
+Tipo: Entorno
+Descripcion: [uso]Permite recolectar 1 cloro de Tierra y 1 cloro generico
+Sin coste 
+Descargado: No
+-----------------------------------------------------
+2x---
+
+Coste: 2G 
+A: 1  D: 2    Vida: 2  Descargado: No
+Codigo: cucaracha
+Nombre: Cucaracha Indomita
+Elemento: tierra
+Tipo: Ser
+Descripcion: [pasiva]No pueden jugarse intervenciones directamente sobre ella
+Coste: 2G 
+A: 1  D: 2    Vida: 2  Descargado: No
+-----------------------------------------------------
+1x---
+
+Coste: 1M + 1G 
+Codigo: salitre
+Nombre: Astucia del Salitre
+Elemento: mar
+Tipo: Intervencion
+Descripcion: Todos los seres atacantes de una trifulca reciben un -2/-0
+Coste: 1M + 1G 
+
+Introduzca la accion: 
+
+-----------------------------------------------------
+
+Sin coste 
+Descargado: No
+Codigo: prado
+Nombre: Prado Infantil
+Elemento: tierra
+Tipo: Entorno
+Descripcion: [uso]Permite recolectar 1 cloro de Tierra y 1 cloro generico
+Sin coste 
+Descargado: No
+-----------------------------------------------------
+
+Sin coste 
+Descargado: No
+Codigo: portal
+Nombre: Portal Intra-Mundos
+Elemento: espiritu
+Tipo: Entorno
+Descripcion: [uso]Permite recolectar 3 cloros de Espiritu
+Sin coste 
+Descargado: No
+-----------¡¡¡¡¡ENEMIGO!!!!!----------------------------------
+
+-----------------------------------------------------
+
+Sin coste 
+Descargado: No
+Codigo: prado
+Nombre: Prado Infantil
+Elemento: tierra
+Tipo: Entorno
+Descripcion: [uso]Permite recolectar 1 cloro de Tierra y 1 cloro generico
+Sin coste 
+Descargado: No
+
+Introduzca la accion: 
+Al ataque mis valientes, ¡LOK'TAR OGAR!
+
+Introduzca la accion: 
+Al ataque mis valientes, ¡LOK'TAR OGAR!
+
+Introduzca la accion: 
+Al ataque mis valientes, ¡LOK'TAR OGAR!
+
+Introduzca la accion: 
+¡DEFIENDASE! asigne defensores  como guste
+
+Introduzca la accion: 
+Introduzca la carta que quiere defender ,y en caso de haber mas de una, el numero que sera su posicion partiendo del 1 segun se muestra por pantalla
+
+Introduzca la accion: 
+A la defensa, ¡Gloria o muerte!
+
+Introduzca la accion: 
+Introduzca la carta que quiere defender ,y en caso de haber mas de una, el numero que sera su posicion partiendo del 1 segun se muestra por pantalla
+
+Introduzca la accion: 
+A la defensa, ¡Gloria o muerte!
+
+Introduzca la accion: 
+Introduzca la carta que quiere defender ,y en caso de haber mas de una, el numero que sera su posicion partiendo del 1 segun se muestra por pantalla
+
+Introduzca la accion: 
+A la defensa, ¡Gloria o muerte!
+
+Introduzca la accion: 
+Introduzca la carta que quiere defender ,y en caso de haber mas de una, el numero que sera su posicion partiendo del 1 segun se muestra por pantalla
+
+Introduzca la accion: 
+A la defensa, ¡Gloria o muerte!
+
+Introduzca la accion: 
+
+--Combate----------------
+-------ATACA------------
+
+Coste: 3E + 2G 
+A: 6  D: 5    Vida: 5  Descargado: Si
+Codigo: angel
+Nombre: Angel de la Debacle
+Elemento: espiritu
+Tipo: Ser
+Descripcion: [pasiva]Gana +0/+1 por cada ser que se defienda de él, a partir del primero
+Coste: 3E + 2G 
+A: 6  D: 5    Vida: 5  Descargado: Si
+--------VS------------
+------DEFIENDE------------
+
+--------------------------
+
+Coste: 1M 
+A: 2  D: 0    Vida: 0  Descargado: No
+Codigo: lenguado
+Nombre: Lenguado Sibilino
+Elemento: mar
+Tipo: Ser
+Descripcion: 
+Coste: 1M 
+A: 2  D: 0    Vida: 0  Descargado: No
+--------------------------
+
+Coste: 
+A: 0  D: 1    Vida: 1  Descargado: No
+Codigo: pajaro
+Nombre: Pajaro Ebanista
+Elemento: aire
+Tipo: Ser
+Descripcion: 
+Coste: 
+A: 0  D: 1    Vida: 1  Descargado: No
+--------------------------
+
+Coste: 
+A: 0  D: 1    Vida: 1  Descargado: No
+Codigo: pajaro
+Nombre: Pajaro Ebanista
+Elemento: aire
+Tipo: Ser
+Descripcion: 
+Coste: 
+A: 0  D: 1    Vida: 1  Descargado: No
+--Combate----------------
+-------ATACA------------
+
+Coste: 2A + 1G 
+A: 4  D: 0    Vida: 0  Descargado: Si
+Codigo: tornado
+Nombre: Tornado de Oriente
+Elemento: aire
+Tipo: Ser
+Descripcion: [pasiva]Multiplica por 2 su daño cuando daña directamente a un brujo
+Coste: 2A + 1G 
+A: 4  D: 0    Vida: 0  Descargado: Si
+--------VS------------
+------DEFIENDE------------
+
+--------------------------
+
+Coste: 1M 
+A: 2  D: 0    Vida: 0  Descargado: No
+Codigo: lenguado
+Nombre: Lenguado Sibilino
+Elemento: mar
+Tipo: Ser
+Descripcion: 
+Coste: 1M 
+A: 2  D: 0    Vida: 0  Descargado: No
+--Combate----------------
+-------ATACA------------
+
+Coste: 2A + 1G 
+A: 4  D: 0    Vida: 0  Descargado: Si
+Codigo: tornado
+Nombre: Tornado de Oriente
+Elemento: aire
+Tipo: Ser
+Descripcion: [pasiva]Multiplica por 2 su daño cuando daña directamente a un brujo
+Coste: 2A + 1G 
+A: 4  D: 0    Vida: 0  Descargado: Si
+
+Nadie le defiende va directo al brujo
+
+Introduzca la accion: 
+¡INTERVENCIONES! del brujo  Brujo A(Recuerde que ahora puede jugar intervenciones 'codigo' 'propietario' 'objetivo' (depende de la intervencion))
+
+Introduzca la accion: 
+¡INTERVENCIONES! del brujo Brujo B(Recuerde que ahora puede jugar intervenciones 'codigo' 'propietario' 'objetivo' (depende de la intervencion))
+
+Introduzca la accion: 
+¡¡¡Se va a resolver el combate¡¡¡¡
+-------ATACA------------
+
+Coste: 3E + 2G 
+A: 6  D: 5    Vida: 5  Descargado: Si
+Codigo: angel
+Nombre: Angel de la Debacle
+Elemento: espiritu
+Tipo: Ser
+Descripcion: [pasiva]Gana +0/+1 por cada ser que se defienda de él, a partir del primero
+Coste: 3E + 2G 
+A: 6  D: 5    Vida: 5  Descargado: Si
+--------VS------------
+------DEFIENDE------------
+
+--------------------------
+
+Coste: 1M 
+A: 2  D: 0    Vida: 0  Descargado: No
+Codigo: lenguado
+Nombre: Lenguado Sibilino
+Elemento: mar
+Tipo: Ser
+Descripcion: 
+Coste: 1M 
+A: 2  D: 0    Vida: 0  Descargado: No
+--------------------------
+
+Coste: 
+A: 0  D: 1    Vida: 1  Descargado: No
+Codigo: pajaro
+Nombre: Pajaro Ebanista
+Elemento: aire
+Tipo: Ser
+Descripcion: 
+Coste: 
+A: 0  D: 1    Vida: 1  Descargado: No
+--------------------------
+
+Coste: 
+A: 0  D: 1    Vida: 1  Descargado: No
+Codigo: pajaro
+Nombre: Pajaro Ebanista
+Elemento: aire
+Tipo: Ser
+Descripcion: 
+Coste: 
+A: 0  D: 1    Vida: 1  Descargado: No
+
+
+El ser
+
+Coste: 3E + 2G 
+A: 6  D: 5    Vida: 3  Descargado: Si
+Codigo: angel
+Nombre: Angel de la Debacle
+Elemento: espiritu
+Tipo: Ser
+Descripcion: [pasiva]Gana +0/+1 por cada ser que se defienda de él, a partir del primero
+Coste: 3E + 2G 
+A: 6  D: 5    Vida: 3  Descargado: Si
+ha sufrido 2 puntos de daño
+
+Pulse enter para seguir
+
+
+El ser
+
+Coste: 1M 
+A: 2  D: 0    Vida: -1  Descargado: No
+Codigo: lenguado
+Nombre: Lenguado Sibilino
+Elemento: mar
+Tipo: Ser
+Descripcion: 
+Coste: 1M 
+A: 2  D: 0    Vida: -1  Descargado: No
+ha sufrido 1 puntos de daño
+
+Pulse enter para seguir
+Ha caido un heroes:
+
+Coste: 1M 
+A: 2  D: 0    Vida: -1  Descargado: No
+Codigo: lenguado
+Nombre: Lenguado Sibilino
+Elemento: mar
+Tipo: Ser
+Descripcion: 
+Coste: 1M 
+A: 2  D: 0    Vida: -1  Descargado: No
+del brujo Brujo B
+
+Pulse enter para seguir
+
+
+El ser
+
+Coste: 
+A: 0  D: 1    Vida: -1  Descargado: No
+Codigo: pajaro
+Nombre: Pajaro Ebanista
+Elemento: aire
+Tipo: Ser
+Descripcion: 
+Coste: 
+A: 0  D: 1    Vida: -1  Descargado: No
+ha sufrido 2 puntos de daño
+
+Pulse enter para seguir
+Ha caido un heroes:
+
+Coste: 
+A: 0  D: 1    Vida: -1  Descargado: No
+Codigo: pajaro
+Nombre: Pajaro Ebanista
+Elemento: aire
+Tipo: Ser
+Descripcion: 
+Coste: 
+A: 0  D: 1    Vida: -1  Descargado: No
+del brujo Brujo B
+
+Pulse enter para seguir
+
+
+El ser
+
+Coste: 
+A: 0  D: 1    Vida: -1  Descargado: No
+Codigo: pajaro
+Nombre: Pajaro Ebanista
+Elemento: aire
+Tipo: Ser
+Descripcion: 
+Coste: 
+A: 0  D: 1    Vida: -1  Descargado: No
+ha sufrido 2 puntos de daño
+
+Pulse enter para seguir
+Ha caido un heroes:
+
+Coste: 
+A: 0  D: 1    Vida: -1  Descargado: No
+Codigo: pajaro
+Nombre: Pajaro Ebanista
+Elemento: aire
+Tipo: Ser
+Descripcion: 
+Coste: 
+A: 0  D: 1    Vida: -1  Descargado: No
+del brujo Brujo B
+
+Pulse enter para seguir
+
+Los seres defensores han muerto todos
+
+
+El brujo Brujo B ha sufrido 1 puntos de vida
+Pulse enter para seguir
+¡¡¡Se va a resolver el combate¡¡¡¡
+-------ATACA------------
+
+Coste: 2A + 1G 
+A: 4  D: 0    Vida: 0  Descargado: Si
+Codigo: tornado
+Nombre: Tornado de Oriente
+Elemento: aire
+Tipo: Ser
+Descripcion: [pasiva]Multiplica por 2 su daño cuando daña directamente a un brujo
+Coste: 2A + 1G 
+A: 4  D: 0    Vida: 0  Descargado: Si
+--------VS------------
+------DEFIENDE------------
+
+--------------------------
+
+Coste: 1M 
+A: 2  D: 0    Vida: 0  Descargado: No
+Codigo: lenguado
+Nombre: Lenguado Sibilino
+Elemento: mar
+Tipo: Ser
+Descripcion: 
+Coste: 1M 
+A: 2  D: 0    Vida: 0  Descargado: No
+
+
+El ser
+
+Coste: 2A + 1G 
+A: 4  D: 0    Vida: -2  Descargado: Si
+Codigo: tornado
+Nombre: Tornado de Oriente
+Elemento: aire
+Tipo: Ser
+Descripcion: [pasiva]Multiplica por 2 su daño cuando daña directamente a un brujo
+Coste: 2A + 1G 
+A: 4  D: 0    Vida: -2  Descargado: Si
+ha sufrido 2 puntos de daño
+
+Pulse enter para seguir
+Ha caido un heroes:
+
+Coste: 2A + 1G 
+A: 4  D: 0    Vida: -2  Descargado: Si
+Codigo: tornado
+Nombre: Tornado de Oriente
+Elemento: aire
+Tipo: Ser
+Descripcion: [pasiva]Multiplica por 2 su daño cuando daña directamente a un brujo
+Coste: 2A + 1G 
+A: 4  D: 0    Vida: -2  Descargado: Si
+del brujo  Brujo A
+
+Pulse enter para seguir
+
+
+El ser
+
+Coste: 1M 
+A: 2  D: 0    Vida: -4  Descargado: No
+Codigo: lenguado
+Nombre: Lenguado Sibilino
+Elemento: mar
+Tipo: Ser
+Descripcion: 
+Coste: 1M 
+A: 2  D: 0    Vida: -4  Descargado: No
+ha sufrido 4 puntos de daño
+
+Pulse enter para seguir
+Ha caido un heroes:
+
+Coste: 1M 
+A: 2  D: 0    Vida: -4  Descargado: No
+Codigo: lenguado
+Nombre: Lenguado Sibilino
+Elemento: mar
+Tipo: Ser
+Descripcion: 
+Coste: 1M 
+A: 2  D: 0    Vida: -4  Descargado: No
+del brujo Brujo B
+
+Pulse enter para seguir
+
+
+El brujo Brujo B ha sufrido 3 puntos de vida
+Pulse enter para seguir
+¡¡¡Se va a resolver el combate¡¡¡¡
+-------ATACA------------
+
+Coste: 2A + 1G 
+A: 8  D: 0    Vida: 0  Descargado: Si
+Codigo: tornado
+Nombre: Tornado de Oriente
+Elemento: aire
+Tipo: Ser
+Descripcion: [pasiva]Multiplica por 2 su daño cuando daña directamente a un brujo
+Coste: 2A + 1G 
+A: 8  D: 0    Vida: 0  Descargado: Si
+
+Nadie le defiende va directo al brujo
+
+
+El brujo Brujo B ha sufrido 8 puntos de vida
+Pulse enter para seguir
+
+
+
+----¡FIN DE LA RESOLUCION DEL COMBATE!----------
+
+El brujo  Brujo A ha perdido 50 puntos de vida por quemadura de cloro
+Fin del turno del brujo  Brujo A
+Turno del Brujo Brujo B
+
+
+
+Pulse Enter para empezar
+---------------Fase pre-trifulca---------------------------------
+
+Introduzca la accion: 
+
+-----------------------------------------------------
+
+Coste: 2M + 2G 
+A: 1  D: 5    Vida: 5  Descargado: No
+Codigo: ballena
+Nombre: Ballena Monje
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasiva]Pierde un -0/-2 al defenderse de seres de clase Aire
+Coste: 2M + 2G 
+A: 1  D: 5    Vida: 5  Descargado: No
+-----------------------------------------------------
+
+Coste: 3M + 1G 
+A: 3  D: 3    Vida: 3  Descargado: No
+Codigo: elemental
+Nombre: Elemental de Lluvia
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasiva]Tras una trifulca, el brujo atacante debe devolver a su mano al ser que haya atacado al Elemental
+Coste: 3M + 1G 
+A: 3  D: 3    Vida: 3  Descargado: No
+-----------¡¡¡¡¡ENEMIGO!!!!!----------------------------------
+
+-----------------------------------------------------
+
+Coste: 2T 
+A: 2  D: 1    Vida: 1  Descargado: No
+Codigo: lobo
+Nombre: Lobo Estepario
+Elemento: tierra
+Tipo: Ser
+Descripcion: [pasiva]Al final del turno se descargan los seres que se hayan defendido de él
+Coste: 2T 
+A: 2  D: 1    Vida: 1  Descargado: No
+-----------------------------------------------------
+
+Coste: 3E + 2G 
+A: 6  D: 2    Vida: 2  Descargado: Si
+Codigo: angel
+Nombre: Angel de la Debacle
+Elemento: espiritu
+Tipo: Ser
+Descripcion: [pasiva]Gana +0/+1 por cada ser que se defienda de él, a partir del primero
+Coste: 3E + 2G 
+A: 6  D: 2    Vida: 2  Descargado: Si
+-----------------------------------------------------
+
+Coste: 2M + 2G 
+A: 1  D: 5    Vida: 5  Descargado: No
+Codigo: ballena
+Nombre: Ballena Monje
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasiva]Pierde un -0/-2 al defenderse de seres de clase Aire
+Coste: 2M + 2G 
+A: 1  D: 5    Vida: 5  Descargado: No
+-----------------------------------------------------
+
+Coste: 3M + 1G 
+A: 3  D: 3    Vida: 3  Descargado: No
+Codigo: elemental
+Nombre: Elemental de Lluvia
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasiva]Tras una trifulca, el brujo atacante debe devolver a su mano al ser que haya atacado al Elemental
+Coste: 3M + 1G 
+A: 3  D: 3    Vida: 3  Descargado: No
+-----------------------------------------------------
+
+Coste: 2A + 1G 
+A: 4  D: 0    Vida: 0  Descargado: Si
+Codigo: tornado
+Nombre: Tornado de Oriente
+Elemento: aire
+Tipo: Ser
+Descripcion: [pasiva]Multiplica por 2 su daño cuando daña directamente a un brujo
+Coste: 2A + 1G 
+A: 4  D: 0    Vida: 0  Descargado: Si
+
+Introduzca la accion: 

@@ -1,0 +1,80 @@
+1
+
+--mano
+peninsula
+pajaro
+--usar peninsula
+cucaracha
+pajaro
+--sig
+--sig
+--sig
+--atacar cucaracha
+--sig
+--sig
+--sig
+--sig
+
+
+
+
+
+--mano
+portal
+--usar portal
+aberracion
+pajaro
+pajaro
+pajaro
+pajaro
+--sig
+--sig
+--sig
+--atacar aberracion
+--atacar pajaro 1
+--atacar pajaro 2
+--atacar pajaro 3
+--sig
+--defender pajaro 1
+pajaro 1
+--defender pajaro 2
+pajaro 1
+--vercombate
+--sig
+--sig
+--sig
+
+
+
+
+
+
+
+
+
+peninsula
+pajaro
+--usar peninsula
+--usar peninsula
+--sig
+resaca enemigo aberracion
+--sig
+--sig
+
+
+--sig
+--atacar aberracion
+--atacar cucaracha
+--atacar pajaro 1
+--atacar pajaro 2
+--atacar pajaro 3
+--sig
+--sig
+--sig
+--sig
+
+
+
+
+
+

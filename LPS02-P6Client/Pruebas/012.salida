@@ -1,0 +1,419 @@
+Parametro 'min' no introducido se leera desde el fichero de propiedades
+Parametro 'max' no introducido se leera desde el fichero de propiedades
+Parametro 'mano' no introducido se leera desde el fichero de propiedades
+Parametro 'vidas' no introducido se leera desde el fichero de propiedades
+No has introducido el valor vida en el fichero de propiedades, se cargara por defecto
+El mazo del brujo A se cargo sin fallos
+El mazo del brujo B se cargo sin fallos
+Bienvenido a Brujas & Trifulcas.
+Elige una de las siguientes opciones:
+'1.-Jugar partida 1vs1.
+'2.-Ayuda
+'0.-Salir
+Estas en modo ADMIN
+Turno del Brujo  Brujo A
+
+
+
+Pulse Enter para empezar
+---------------Fase pre-trifulca---------------------------------
+
+Introduzca la accion: 
+-------------Fase trifulca---------------------------------
+¡INTERVENCIONES! del brujo  Brujo A(Recuerde que ahora puede jugar intervenciones 'codigo' 'propietario' 'objetivo' (depende de la intervencion))
+
+Introduzca la accion: 
+¡INTERVENCIONES! del brujo Brujo B(Recuerde que ahora puede jugar intervenciones 'codigo' 'propietario' 'objetivo' (depende de la intervencion))
+
+Introduzca la accion: 
+¡ATAQUE!Es momento de que asigne atacantes si lo considera oportuno
+
+Introduzca la accion: 
+Al ataque mis valientes, ¡LOK'TAR OGAR!
+
+Introduzca la accion: 
+Al ataque mis valientes, ¡LOK'TAR OGAR!
+
+Introduzca la accion: 
+¡DEFIENDASE! asigne defensores  como guste
+
+Introduzca la accion: 
+Introduzca la carta que quiere defender ,y en caso de haber mas de una, el numero que sera su posicion partiendo del 1 segun se muestra por pantalla
+
+Introduzca la accion: 
+A la defensa, ¡Gloria o muerte!
+
+Introduzca la accion: 
+Introduzca la carta que quiere defender ,y en caso de haber mas de una, el numero que sera su posicion partiendo del 1 segun se muestra por pantalla
+
+Introduzca la accion: 
+A la defensa, ¡Gloria o muerte!
+
+Introduzca la accion: 
+Introduzca la carta que quiere defender ,y en caso de haber mas de una, el numero que sera su posicion partiendo del 1 segun se muestra por pantalla
+
+Introduzca la accion: 
+A la defensa, ¡Gloria o muerte!
+
+Introduzca la accion: 
+
+--Combate----------------
+-------ATACA------------
+
+Coste: 2M + 2G 
+A: 1  D: 5    Vida: 5  Descargado: Si
+Codigo: ballena
+Nombre: Ballena Monje
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasiva]Pierde un -0/-2 al defenderse de seres de clase Aire
+Coste: 2M + 2G 
+A: 1  D: 5    Vida: 5  Descargado: Si
+--------VS------------
+------DEFIENDE------------
+
+--------------------------
+
+Coste: 3M + 1G 
+A: 3  D: 3    Vida: 3  Descargado: No
+Codigo: elemental
+Nombre: Elemental de Lluvia
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasiva]Tras una trifulca, el brujo atacante debe devolver a su mano al ser que haya atacado al Elemental
+Coste: 3M + 1G 
+A: 3  D: 3    Vida: 3  Descargado: No
+--Combate----------------
+-------ATACA------------
+
+Coste: 2T 
+A: 2  D: 1    Vida: 1  Descargado: Si
+Codigo: lobo
+Nombre: Lobo Estepario
+Elemento: tierra
+Tipo: Ser
+Descripcion: [pasiva]Al final del turno se descargan los seres que se hayan defendido de él
+Coste: 2T 
+A: 2  D: 1    Vida: 1  Descargado: Si
+--------VS------------
+------DEFIENDE------------
+
+--------------------------
+
+Coste: 
+A: 0  D: 1    Vida: 1  Descargado: No
+Codigo: pajaro
+Nombre: Pajaro Ebanista
+Elemento: aire
+Tipo: Ser
+Descripcion: 
+Coste: 
+A: 0  D: 1    Vida: 1  Descargado: No
+--------------------------
+
+Coste: 
+A: 0  D: 1    Vida: 1  Descargado: No
+Codigo: pajaro
+Nombre: Pajaro Ebanista
+Elemento: aire
+Tipo: Ser
+Descripcion: 
+Coste: 
+A: 0  D: 1    Vida: 1  Descargado: No
+
+Introduzca la accion: 
+¡INTERVENCIONES! del brujo  Brujo A(Recuerde que ahora puede jugar intervenciones 'codigo' 'propietario' 'objetivo' (depende de la intervencion))
+
+Introduzca la accion: 
+¡INTERVENCIONES! del brujo Brujo B(Recuerde que ahora puede jugar intervenciones 'codigo' 'propietario' 'objetivo' (depende de la intervencion))
+
+Introduzca la accion: 
+¡¡¡Se va a resolver el combate¡¡¡¡
+-------ATACA------------
+
+Coste: 2M + 2G 
+A: 1  D: 5    Vida: 5  Descargado: Si
+Codigo: ballena
+Nombre: Ballena Monje
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasiva]Pierde un -0/-2 al defenderse de seres de clase Aire
+Coste: 2M + 2G 
+A: 1  D: 5    Vida: 5  Descargado: Si
+--------VS------------
+------DEFIENDE------------
+
+--------------------------
+
+Coste: 3M + 1G 
+A: 3  D: 3    Vida: 3  Descargado: No
+Codigo: elemental
+Nombre: Elemental de Lluvia
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasiva]Tras una trifulca, el brujo atacante debe devolver a su mano al ser que haya atacado al Elemental
+Coste: 3M + 1G 
+A: 3  D: 3    Vida: 3  Descargado: No
+
+
+El ser
+
+Coste: 2M + 2G 
+A: 1  D: 5    Vida: 2  Descargado: Si
+Codigo: ballena
+Nombre: Ballena Monje
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasiva]Pierde un -0/-2 al defenderse de seres de clase Aire
+Coste: 2M + 2G 
+A: 1  D: 5    Vida: 2  Descargado: Si
+ha sufrido 3 puntos de daño
+
+Pulse enter para seguir
+
+
+El ser
+
+Coste: 3M + 1G 
+A: 3  D: 3    Vida: 2  Descargado: No
+Codigo: elemental
+Nombre: Elemental de Lluvia
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasiva]Tras una trifulca, el brujo atacante debe devolver a su mano al ser que haya atacado al Elemental
+Coste: 3M + 1G 
+A: 3  D: 3    Vida: 2  Descargado: No
+ha sufrido 1 puntos de daño
+
+Pulse enter para seguir
+¡¡¡Se va a resolver el combate¡¡¡¡
+-------ATACA------------
+
+Coste: 2T 
+A: 2  D: 1    Vida: 1  Descargado: Si
+Codigo: lobo
+Nombre: Lobo Estepario
+Elemento: tierra
+Tipo: Ser
+Descripcion: [pasiva]Al final del turno se descargan los seres que se hayan defendido de él
+Coste: 2T 
+A: 2  D: 1    Vida: 1  Descargado: Si
+--------VS------------
+------DEFIENDE------------
+
+--------------------------
+
+Coste: 
+A: 0  D: 1    Vida: 1  Descargado: No
+Codigo: pajaro
+Nombre: Pajaro Ebanista
+Elemento: aire
+Tipo: Ser
+Descripcion: 
+Coste: 
+A: 0  D: 1    Vida: 1  Descargado: No
+--------------------------
+
+Coste: 
+A: 0  D: 1    Vida: 1  Descargado: No
+Codigo: pajaro
+Nombre: Pajaro Ebanista
+Elemento: aire
+Tipo: Ser
+Descripcion: 
+Coste: 
+A: 0  D: 1    Vida: 1  Descargado: No
+---------------
+Reparta 2 entre tus defensores
+
+-----
+1-->
+Coste: 
+A: 0  D: 1    Vida: 1  Descargado: No
+Codigo: pajaro
+Nombre: Pajaro Ebanista
+Elemento: aire
+Tipo: Ser
+Descripcion: 
+Coste: 
+A: 0  D: 1    Vida: 1  Descargado: No
+-----
+2-->
+Coste: 
+A: 0  D: 1    Vida: 1  Descargado: No
+Codigo: pajaro
+Nombre: Pajaro Ebanista
+Elemento: aire
+Tipo: Ser
+Descripcion: 
+Coste: 
+A: 0  D: 1    Vida: 1  Descargado: No
+Introduce --daño 'cantidad' 'codigo'(si hubiera mas de uno especificar mediante un entero su posicion, contando solo las que sean iguales)
+ para asignar daño
+Si desea no repartir mas daño introduzca '--sig'.
+Si desea volver a ver la criaturas use '--ver'
+Le falta por repatir 2 daño.
+Introduzca datos:
+
+
+El brujo Brujo B ha sufrido 2 puntos de vida
+Pulse enter para seguir
+
+
+
+----¡FIN DE LA RESOLUCION DEL COMBATE!----------
+
+El brujo  Brujo A ha perdido 50 puntos de vida por quemadura de cloro
+Tienes mas cartas de las permitidas, debes descartarte de 1 cartas
+
+Introduzca la accion: 
+Esa carta no esta en la mano
+Te quedan por descartar 1
+
+Introduzca la accion: 
+Esa carta no esta en la mano
+Te quedan por descartar 1
+
+Introduzca la accion: 
+Esa carta no esta en la mano
+Te quedan por descartar 1
+
+Introduzca la accion: 
+Esa carta no esta en la mano
+Te quedan por descartar 1
+
+Introduzca la accion: 
+
+-----------------------------------------------------
+
+Coste: 2T 
+A: 2  D: 1    Vida: 1  Descargado: Si
+Codigo: lobo
+Nombre: Lobo Estepario
+Elemento: tierra
+Tipo: Ser
+Descripcion: [pasiva]Al final del turno se descargan los seres que se hayan defendido de él
+Coste: 2T 
+A: 2  D: 1    Vida: 1  Descargado: Si
+-----------------------------------------------------
+
+Coste: 3E + 2G 
+A: 6  D: 2    Vida: 2  Descargado: No
+Codigo: angel
+Nombre: Angel de la Debacle
+Elemento: espiritu
+Tipo: Ser
+Descripcion: [pasiva]Gana +0/+1 por cada ser que se defienda de él, a partir del primero
+Coste: 3E + 2G 
+A: 6  D: 2    Vida: 2  Descargado: No
+-----------------------------------------------------
+
+Coste: 3M + 1G 
+A: 3  D: 3    Vida: 3  Descargado: No
+Codigo: elemental
+Nombre: Elemental de Lluvia
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasiva]Tras una trifulca, el brujo atacante debe devolver a su mano al ser que haya atacado al Elemental
+Coste: 3M + 1G 
+A: 3  D: 3    Vida: 3  Descargado: No
+-----------------------------------------------------
+
+-----
+1-->
+Coste: 2A + 1G 
+A: 4  D: 0    Vida: 0  Descargado: No
+Codigo: tornado
+Nombre: Tornado de Oriente
+Elemento: aire
+Tipo: Ser
+Descripcion: [pasiva]Multiplica por 2 su daño cuando daña directamente a un brujo
+Coste: 2A + 1G 
+A: 4  D: 0    Vida: 0  Descargado: No
+-----
+2-->
+Coste: 2A + 1G 
+A: 4  D: 0    Vida: 0  Descargado: No
+Codigo: tornado
+Nombre: Tornado de Oriente
+Elemento: aire
+Tipo: Ser
+Descripcion: [pasiva]Multiplica por 2 su daño cuando daña directamente a un brujo
+Coste: 2A + 1G 
+A: 4  D: 0    Vida: 0  Descargado: No
+-----------¡¡¡¡¡ENEMIGO!!!!!----------------------------------
+
+-----------------------------------------------------
+
+Coste: 2M + 2G 
+A: 1  D: 5    Vida: 5  Descargado: No
+Codigo: ballena
+Nombre: Ballena Monje
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasiva]Pierde un -0/-2 al defenderse de seres de clase Aire
+Coste: 2M + 2G 
+A: 1  D: 5    Vida: 5  Descargado: No
+-----------------------------------------------------
+
+-----
+1-->
+Coste: 
+A: 0  D: 1    Vida: 1  Descargado: No
+Codigo: pajaro
+Nombre: Pajaro Ebanista
+Elemento: aire
+Tipo: Ser
+Descripcion: 
+Coste: 
+A: 0  D: 1    Vida: 1  Descargado: No
+-----
+2-->
+Coste: 
+A: 0  D: 1    Vida: 1  Descargado: No
+Codigo: pajaro
+Nombre: Pajaro Ebanista
+Elemento: aire
+Tipo: Ser
+Descripcion: 
+Coste: 
+A: 0  D: 1    Vida: 1  Descargado: No
+-----------------------------------------------------
+
+Coste: 3M + 1G 
+A: 3  D: 3    Vida: 3  Descargado: No
+Codigo: elemental
+Nombre: Elemental de Lluvia
+Elemento: mar
+Tipo: Ser
+Descripcion: [pasiva]Tras una trifulca, el brujo atacante debe devolver a su mano al ser que haya atacado al Elemental
+Coste: 3M + 1G 
+A: 3  D: 3    Vida: 3  Descargado: No
+-----------------------------------------------------
+
+-----
+1-->
+Coste: 1M 
+A: 2  D: 0    Vida: 0  Descargado: No
+Codigo: lenguado
+Nombre: Lenguado Sibilino
+Elemento: mar
+Tipo: Ser
+Descripcion: 
+Coste: 1M 
+A: 2  D: 0    Vida: 0  Descargado: No
+-----
+2-->
+Coste: 1M 
+A: 2  D: 0    Vida: 0  Descargado: No
+Codigo: lenguado
+Nombre: Lenguado Sibilino
+Elemento: mar
+Tipo: Ser
+Descripcion: 
+Coste: 1M 
+A: 2  D: 0    Vida: 0  Descargado: No
+
+Introduzca la accion: 
+Esa carta no esta en la mano
+Te quedan por descartar 1
